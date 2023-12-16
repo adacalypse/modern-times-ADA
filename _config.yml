@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My Website
+title: Modern Times - Rise of Technology in Cinema
 
 # Your name to show in the footer
-author: Some Person
+author: Amine, Lena, Olivia, Oscar, Orféas
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -50,13 +50,13 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
+#  email: "someone@example.com"
+#  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+#  facebook: deanattali
+  github: adacalypse
+#  twitter: daattali
+#  patreon: DeanAttali
+#  youtube: "@daattali"
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -82,18 +82,14 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+# rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
 ###########################
 
 # Select which social network share links to show in posts
-share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
-  vk: false
+
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
