@@ -21,10 +21,12 @@ author: Amine, Lena, Olivia, Oscar, Orféas
 
 navbar-links:
   About Me: "aboutme"
+  Data Story : "datastory"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    # - Beautiful Jekyll: "https://beautifuljekyll.com"
+    # - Learn markdown: "https://www.markdowntutorial.com/"
+    - The Dataset : "http://www.cs.cmu.edu/~ark/personas/"
+  
 
 ################
 # --- Logo --- #
