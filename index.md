@@ -22,7 +22,20 @@ Ever since, the development of cinema is characterized by technological breakthr
 ![Oz new colors](/assets/img/the-wizard-of-oz-black-and-white-to-colour.gif)
 
 
-<img src="/assets/img/avatar-icon.png" alt = "trial_center" class = "center"> 
+<p align="center">
+  <img src="/assets/img/avatar-icon.png">
+</p>
+
+Hm.
+
+<img src="/assets/img/avatar-icon.png" alt = "triaaal" class = "center"> 
+
+This text need to be centered => 
+
+<p align="center">
+Text Text Text.
+
+</p>
 
 
 Re trial
