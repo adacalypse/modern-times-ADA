@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: "Modern Times: Rise of Technology in Cinema"
 subtitle: An ADA Data Story
 cover-img: /assets/img/moderntime_head.jpg
