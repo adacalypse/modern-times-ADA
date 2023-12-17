@@ -991,9 +991,12 @@ pre {
 }
 
 .gif-size-1 {
-  width: 300px;
-  height: 200px;
+  height: 400px;
+  width: auto;
+  text-align: center;
 }
+
+
 
 /* Search bar */
 #beautifuljekyll-search-overlay {

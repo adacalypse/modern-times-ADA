@@ -16,7 +16,7 @@ Ever since, the development of cinema is characterized by technological breakthr
 
 ## The emergence of sound and color
 
-<img src="/assets/img/the-wizard-of-oz-black-and-white-to-colour.gif" alt="Oz Gif" class="gif-size-1 center">
+<img class="gif-size-1 center" src="/assets/img/the-wizard-of-oz-black-and-white-to-colour.gif" alt="Oz Gif" class="gif-size-1 center">
 
 
 Widespread introduction of sound and colour in the 20s revolutionized the industry and correlates with the quick disappearance of silent and black-and-white movies…
