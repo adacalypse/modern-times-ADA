@@ -996,7 +996,11 @@ pre {
   text-align: center;
 }
 
-
+.parentDiv {  
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+} 
 
 /* Search bar */
 #beautifuljekyll-search-overlay {
