@@ -30,6 +30,13 @@ Hm.
 
 <img src="/assets/img/avatar-icon.png" alt = "triaaal" class = "center"> 
 
+This text need to be centered => 
+
+<p align="center">
+Text Text Text.
+
+</p>
+
 
 Widespread introduction of sound and colour in the 20s revolutionized the industry and correlates with the quick disappearance of silent and black-and-white movies…
 
