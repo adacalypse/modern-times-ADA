@@ -990,6 +990,11 @@ pre {
   margin: 0 auto;
 }
 
+.gif-size-1 {
+  width: 300px;
+  height: 200px;
+}
+
 /* Search bar */
 #beautifuljekyll-search-overlay {
   display: none;

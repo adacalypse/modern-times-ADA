@@ -2,7 +2,7 @@
 layout: page
 title: "Modern Times: Rise of Technology in Cinema"
 subtitle: An ADA Data Story
-cover-img: /assets/img/Modern_Times_header.png
+cover-img: /assets/img/moderntime_head.jpg
 ---
 
 In the beginning, there was the void. Then came the big bang, which created all conditions needed for the emergence of the seventh art. However, it was not until the 17th century that its precursor, the magic lantern, and its coloured projections, was invented. A few years later, at the dawn of the 20th century, "Horse in Motion", one of the first chronophotographs, stirred up the crowds. Then, with the advent of celluloid film, sequences became longer, more complex, and more popular until the birth of the movie industry. Ever since, it continues to grow in strength and power. One look at the number of films released over the last few decades suffice to notice its exponential expansion. 
@@ -16,7 +16,8 @@ Ever since, the development of cinema is characterized by technological breakthr
 
 ## The emergence of sound and color
 
-![Oz Gif](/assets/img/the-wizard-of-oz-black-and-white-to-colour.gif)
+<img src="/assets/img/the-wizard-of-oz-black-and-white-to-colour.gif" alt="Oz Gif" class="gif-size-1 center">
+
 
 Widespread introduction of sound and colour in the 20s revolutionized the industry and correlates with the quick disappearance of silent and black-and-white movies…
 
@@ -32,7 +33,8 @@ In the face of this brutal change, actors need to adapt and seize new opportunit
 ### Some exceptions… 
 Nevertheless, some like Charlie Chaplin survive true to themselves amidst the chaos. Even with the growth and popularity of sound in movies, he decides to stay in his original realm with City of Light, and Modern Times, whose criticism of technology is flagrant, which are still now unforgettable classics. 
 
-![Chaplin tech](/assets/img/chaplin_industry.gif)
+<img src="/assets/img/chaplin_industry.gif" alt="Chaplin tech" class = "gif-size-1 center">
+
 
 ## The lost ones
 
