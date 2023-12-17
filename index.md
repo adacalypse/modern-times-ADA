@@ -21,9 +21,12 @@ Ever since, the development of cinema is characterized by technological breakthr
 
 ![Oz new colors](/assets/img/the-wizard-of-oz-black-and-white-to-colour.gif)
 
+
 <p align="center">
   <img src="/assets/img/avatar-icon.png">
 </p>
+
+Hm.
 
 <img src="/assets/img/avatar-icon.png" alt = "triaaal" class = "center"> 
 
