@@ -34,7 +34,9 @@ In the face of this brutal change, actors need to adapt and seize new opportunit
 Nevertheless, some like Charlie Chaplin survive true to themselves amidst the chaos. Even with the growth and popularity of sound in movies, he decides to stay in his original realm with City of Light, and Modern Times, whose criticism of technology is flagrant, which are still now unforgettable classics. 
 
 <img src="/assets/img/chaplin_industry.gif" alt="Chaplin tech" class = "gif-size-1">
-![Chaplin Tech]("/assets/img/chaplin_industry.gif")
+
+![Chaplin Tech](/assets/img/chaplin_industry.gif)
+
 
 ## The lost ones
 
