@@ -108,9 +108,11 @@ In this plot, for example, we can clearly see the impact of real-world wars on t
 
 Can we find out more events that can be critically reflected through the movie plot summaries? 
 
-First, we created employed Autophrase to extract high quality words from the plot summaries, and sorted by tf-idf score.
+First, we created employed Autophrase to extract high quality words from the plot summaries, and sorted by tf-idf score, where a document is a decade's worth of plot summaries. We print the first movie to contain that phrase in its summary.
 
 {% include_relative figs/top_phrases.html %}
+
+Early mentions of technology in movies include "sub
 
 After that, we identified several technological events and calculated the mutual information between these events and the plot summaries…
 
