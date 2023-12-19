@@ -1,85 +1,78 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-</head>
-<body>
-    <label for="decadeSlider">Decade:</label>
-    <input type="range" id="decadeSlider" min="1890" max="1990" step="10" value="0">
-    <table id="csvTable"></table>
-    <script type="module">
-        import { parse } from '/modern-times-ADA/code/csv/index.js';
-        document.addEventListener('DOMContentLoaded', async function () {
+<html>
+<label for="decadeSlider">Decade:</label>
+<input type="range" id="decadeSlider" min="1890" max="1990" step="10" value="0">
+<table id="csvTable"></table>
+<script type="module">
+    import { parse } from './modern-times-ADA/code/csv/index.js';
+    document.addEventListener('DOMContentLoaded', async function () {
+        
+        function renderTable(data) {
+            const table = document.createElement('table');
+            const thead = document.createElement('thead');
+            const tbody = document.createElement('tbody');
+
+            // Columns
+            const selectedColumns = [1, 2, 3];
+            const headerNames = ['Phrase', 'Movie', 'Blurb']
+            // Create table header
+            const headerRow = document.createElement('tr');
             
-            function renderTable(data) {
-                const table = document.createElement('table');
-                const thead = document.createElement('thead');
-                const tbody = document.createElement('tbody');
-
-                // Columns
-                const selectedColumns = [1, 2, 3];
-                const headerNames = ['Phrase', 'Movie', 'Blurb']
-                // Create table header
-                const headerRow = document.createElement('tr');
-                
-                headerNames.forEach(name => {
-                    const th = document.createElement('th');
-                    th.textContent = name;
-                    headerRow.appendChild(th);
-                });
-                thead.appendChild(headerRow);
-                table.appendChild(thead);
-
-                
-
-                // Create table rows
-                for (let i = 1; i < data.length; i++) {
-                    const row = document.createElement('tr');
-
-                    selectedColumns.forEach(j =>  {
-                        const td = document.createElement('td');
-                        if (j == 1) {
-                            td.textContent = '\"'+data[i][j]+'\"';
-                        } else {
-                            td.textContent = data[i][j];
-                        }
-                        
-                        row.appendChild(td);
-                    });
-
-                    tbody.appendChild(row);
-                }
-                table.appendChild(tbody);
-
-                // Clear existing table (if any) and append the new table
-                const existingTable = document.querySelector('table');
-                if (existingTable) {
-                existingTable.remove();
-                }
-                document.body.appendChild(table);
-            }
-
-            function filterDataByDecade(decade) {
-                return data.filter(row => {
-                    const rowAge = row[4];
-                    return rowAge == decade;
-                });
-            }
-            
-            const slider = document.getElementById('decadeSlider');
-            slider.addEventListener('input', function () {
-                const selected = parseInt(slider.value, 10)
-                const filtered = filterDataByDecade(selected);
-                renderTable(filtered)
+            headerNames.forEach(name => {
+                const th = document.createElement('th');
+                th.textContent = name;
+                headerRow.appendChild(th);
             });
+            thead.appendChild(headerRow);
+            table.appendChild(thead);
 
-            const response = await fetch('/modern-times-ADA/assets/data/top_phrases.txt');
-            const csv = await response.text();
-            const data = parse(csv)
-            renderTable(filterDataByDecade(1890))
+            
+
+            // Create table rows
+            for (let i = 1; i < data.length; i++) {
+                const row = document.createElement('tr');
+
+                selectedColumns.forEach(j =>  {
+                    const td = document.createElement('td');
+                    if (j == 1) {
+                        td.textContent = '\"'+data[i][j]+'\"';
+                    } else {
+                        td.textContent = data[i][j];
+                    }
+                    
+                    row.appendChild(td);
+                });
+
+                tbody.appendChild(row);
+            }
+            table.appendChild(tbody);
+
+            // Clear existing table (if any) and append the new table
+            const existingTable = document.querySelector('table');
+            if (existingTable) {
+            existingTable.remove();
+            }
+            document.body.appendChild(table);
+        }
+
+        function filterDataByDecade(decade) {
+            return data.filter(row => {
+                const rowAge = row[4];
+                return rowAge == decade;
+            });
+        }
+        
+        const slider = document.getElementById('decadeSlider');
+        slider.addEventListener('input', function () {
+            const selected = parseInt(slider.value, 10)
+            const filtered = filterDataByDecade(selected);
+            renderTable(filtered)
         });
-    </script>
 
-</body>
+        const response = await fetch('./modern-times-ADA/assets/data/top_phrases.txt');
+        const csv = await response.text();
+        console.log(csv)
+        const data = parse(csv)
+        renderTable(filterDataByDecade(1890))
+    });
+</script>
 </html>
