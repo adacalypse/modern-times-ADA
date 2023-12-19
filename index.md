@@ -108,11 +108,11 @@ In this plot, for example, we can clearly see the impact of real-world wars on t
 
 Can we find out more events that can be critically reflected through the movie plot summaries? 
 
-First, we created employed Autophrase to extract high quality words from the plot summaries, and sorted by tf-idf score, where a document is a decade's worth of plot summaries. We print the first movie to contain that phrase in its summary.
+We employed Autophrase to extract high quality words from the plot summaries, sorting by tf-idf score. We print the first movie to contain that phrase in its summary to understand where the world was from a cultural standpoint.
+
+Notable pieces of technology make the list of high quality words, with modes of transport such as the **submarine**, **aircraft**, boat (**hull**), and car (a **jeep**) in The Impossible Voyage (1904), Aero NT-54 (1925), The Boat (1921), and Call Out the Marines (1941) respectively. Nuclear fears are alive as early as the 50s with nuclear **fallout** in Day the World Ended (1955). Robots make an appearance with a **computerized** kitten in Push-Button Kitty (1952) and an **android** in Frankenstein Meets the Space Monster (1965). Hypothetical technologies were also present with **cloning** in Tintin and the Lake of Sharks (1972). Finally in the internet age,  Hackers (1995) features **downloading** files.
 
 {% include_relative figs/top_phrases.html %}
-
-Early mentions of technology in movies include "sub
 
 After that, we identified several technological events and calculated the mutual information between these events and the plot summaries…
 
