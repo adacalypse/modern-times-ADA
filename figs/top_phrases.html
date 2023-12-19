@@ -2,7 +2,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSV to Table</title>
     
 </head>
 <body>
@@ -10,7 +9,7 @@
     <input type="range" id="decadeSlider" min="1890" max="1990" step="10" value="0">
     <table id="csvTable"></table>
     <script type="module">
-        import { parse } from '/code/csv/index.js';
+        import { parse } from '../code/csv/index.js';
         document.addEventListener('DOMContentLoaded', async function () {
             
             function renderTable(data) {
@@ -75,7 +74,7 @@
                 renderTable(filtered)
             });
 
-            const response = await fetch('/assets/data/top_phrases.txt');
+            const response = await fetch('../assets/data/top_phrases.txt');
             const csv = await response.text();
             const data = parse(csv)
             renderTable(filterDataByDecade(1890))
