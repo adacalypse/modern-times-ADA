@@ -54,7 +54,7 @@ Nevertheless, some like Charlie Chaplin survive true to themselves amidst the ch
 
 ## The lost ones
 
-But not all were so lucky. Silent movies became so unpopular that "Most of the early films did not survive because of wholesale junking by the studios. There was no thought of ever saving these films. They simply needed vault space and the materials were expensive to house." (Film preservationist Robert A. Harris [C])
+But not all were so lucky. Silent movies became so unpopular that "Most of [them] did not survive because of wholesale junking by the studios. There was no thought of ever saving these films. They simply needed vault space and the materials were expensive to house." (Film preservationist Robert A. Harris [C])
 In addition to that, movies usually were stored in flammable nitrate films before the 30s, which led to many unfortunate loss events: many movies turned to ash in vault fires, taking with them, the collective memory of beloved stories and iconic stars… 
 To track down these forgotten figures, we investigated another an external database from Wikidata [D] listing the most prominent lost films in the USA.
 
@@ -86,11 +86,18 @@ Can we find out more events that can be critically reflected through the movie p
 
 ## Missing plot summaries
 
-Many early movies in CMU dataset lack plot summaries.
+Before analysing and parsing all the plots, let's have a look at the missing data. 
 
 {% include_relative figs/missing_plot_summaries.html %}
 
-## High quality phrases
+In addition to be of fewer number, many early movies in CMU dataset lack plot summaries... We must keep that in mind while analyzing them. 
+
+## Moore’s Law in the movie industry 
+
+Technology is like a high-speed train traveling at full speed. As it develops and reveals more and more of its potential, our societies also become increasingly impacted.
+To measure through the lens of the film industry this impact, we have extracted key-words related to technology from the summaries with the help of autophrase [... more methods].  
+
+### High quality phrases
 
 We employed Autophrase [3] to extract high quality words from the plot summaries, sorting by tf-idf score. We print the first movie to contain that phrase in its summary to understand where the world was from a cultural standpoint.
 
@@ -98,7 +105,17 @@ Notable pieces of technology make the list of high quality words, with modes of 
 
 {% include_relative figs/top_phrases.html %}
 
-After that, we identified several technological events and calculated the mutual information between these events and the plot summaries…
+
+And this plot immediately confirmed our hunch: tech-related movie proportion is significantly and steadily increasing throughout the years. 
+
+_add plot of tech related movies_
+
+
+But how well do movies reflect the reality of technology breakthrough and evolution? In other words, how do these technology emergence events _correlate_ with its presence in the movie industry? 
+Let’s visualize this correlation for several different keywords and look at them in time and in space! 
+
+_add plot mappemonde_ 
+
 
 But what about the feelings towards theses technological advancement and their impact on society? To discover this, we made a sentiment analysis of … 
 
