@@ -16,36 +16,9 @@ Ever since, the development of cinema is characterized by technological breakthr
 
 ## The emergence of sound and color
 
- 
-<img src="/assets/img/the-wizard-of-oz-black-and-white-to-colour.gif" alt = "Oz color" class = "center"> 
-
-![Oz new colors](/assets/img/the-wizard-of-oz-black-and-white-to-colour.gif)
-
-
-<p align="center">
-  <img src="/assets/img/avatar-icon.png">
+ <p class="center">
+<img src="./assets/img/the-wizard-of-oz-black-and-white-to-colour.gif" alt = "Oz color" class = "center"> 
 </p>
-
-Hm.
-
-<img src="/assets/img/avatar-icon.png" alt = "triaaal" class = "center"> 
-
-This text need to be centered => 
-
-<p align="center">
-Text Text Text.
-
-</p>
-
-
-Re trial
-
-
-<p class="center">
-  <img src="/assets/img/avatar-icon.png">
-</p>
-
-
 
 Widespread introduction of sound and colour in the 20s revolutionized the industry and correlates with the quick disappearance of silent and black-and-white movies…
 
@@ -73,10 +46,9 @@ So we can consider the following analysis: we can compare the survival rate for 
 
 ### Some exceptions… 
 Nevertheless, some like Charlie Chaplin survive true to themselves amidst the chaos. Even with the growth and popularity of sound in movies, he decides to stay in his original realm with City of Light, and Modern Times, whose criticism of technology is flagrant, which are still now unforgettable classics. 
-
-<img src="/assets/img/chaplin_industry.gif" alt="Chaplin tech" class = "gif-size-1">
-
-![Chaplin Tech](/assets/img/chaplin_industry.gif)
+<p class="center">
+<img src="./assets/img/chaplin_industry.gif" alt="Chaplin tech" class = "gif-size-1">
+</p>
 
 
 ## The lost ones
