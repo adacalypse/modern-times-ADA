@@ -25,19 +25,21 @@ Widespread introduction of sound and colour in the 20s revolutionized the indust
 {% include_relative figs/genres_evolution_silent_BW.html %}
 
 ### Adapt – or perish
-In the face of this brutal change, actors need to adapt and seize new opportunities. But while some are able to change their style, others miss the boat and mark the end of a sinking career.
+In the face of this brutal change, actors need to adapt and seize new opportunities. But while some are able to change their acting style and technique, others miss the boat and the introduction of sound in the 30's thus mark an end to their sinking career. 
 
-To illustrate this phenomenon, let’s consider shortly the arrival of synchronized score and sound. Sound films became popular in the 1930s, we can all imagine the impact it had on the film industry as actors had to change their approach to acting a scene. Now let’s ask ourselves if such an event changed the career of actors. To do that let’s take all actors in our dataset that have acted in at least one silent film and we compare for all of them the amount of silent movies they each acted in vs the amount of non silent films they acted in. 
+To investigate how this event changed the careers landscape of actors, we inspected all of them that have acted in at least one silent film and compared the proportion of silent and non-silent movie in which they stared. Naturally, age and death are critical confounders in this analysis. As we unfortunately do not have access to the actor's date of passing, we take advantage from their date of birth to improve our analysis by selecting only actors who acted on their last silent film below the age of 50. How many of them « survived » the arrival of sound? 
 
-But, you might be asking yourself, wouldn’t the retirement of the actor and the potential death due to older age bias the results? An to this we answer, you are absolutely right. We need to be careful with our analysis but unfortunately we do not have access to the actor’s date of passing. However we do have their date of birth. We thus take advantage of that to improve our analysis. Below you find the percentage of actors, selected such that they acted on their last silent film below the age of 50, that « survived » the arrival of sound. tThe threshold parameter is the ratio of number of sound films over the number of silent films above which an actor is considered to have survived the transition. Thus a threshold of 1 means that the survivors have acted in at least as many sound films as silent films.
+In the illustrative pie graph below, the threshold parameter represents the ratio between the number of sound films and the number of silent films above which an actor is considered to have survived the transition. A threshold of 1 therefore means that the survivors have acted in at least as many sound films as silent films.
 
 {% include_relative figs/younger_silent_actors.html %}
 
-But our analysis can still be improved! If we consider that most of these actors have only appeared a handful of films, we can also consider that the survival rate might be influenced by a poor initial career. 
+But our analysis can still be improved! If we consider that most of these actors have only appeared in a handful of films, we can also consider that the survival rate might be influenced by another confounder, namely: a poor initial career. 
 
 {% include_relative figs/distrib_nb_silent_films.html %}
 
-So we can consider the following analysis: we can compare the survival rate for actors who have acted in less than 5 silent films and actors that have acted in at least 5 silent films. We then find pairs across the two groups whose date of birth and age at last silent film exactly matches. For both groups, similarly as before, we observe the fraction of survivors : 
+We then consider the following: the survival rate for actors who have acted in less than 5 silent films and actors that have acted in at least 5 silent films can be compared. We then find pairs across the two groups whose date of birth and age at last silent film exactly matches. For both groups, similarly as before, we observe the fraction of survivors: 
+
+
 {% include_relative figs/matched_actors.html %}
 
 ... i'll still write a conclusion about this
