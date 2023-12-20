@@ -20,8 +20,8 @@ author: Amine, Lena, Olivia, Oscar, Orféas
 ###############################################
 
 navbar-links:
-  # About Me: "aboutme"
-  Data Story : "datastory"
+  Data Story : "index"
+  About Us: "aboutus"
   Resources:
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
     # - Learn markdown: "https://www.markdowntutorial.com/"
