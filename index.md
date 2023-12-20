@@ -128,7 +128,7 @@ This work would not have been possible without the datasets and code libraries f
 David Bamman, Brendan O'Connor, and Noah A. Smith
 ACL 2013, Sofia, Bulgaria, August 2013
 
-- [[dataset][6]] Geographic plots made with Natural Earth.
+- [[dataset][6]] Geographic plots made with **Natural Earth**.
 
 - [[library][2]] luozhouyang/AutoPhraseX. **Automatic Phrase Mining from Massive Text Corpora in Python**.
 
@@ -137,6 +137,8 @@ ACL 2013, Sofia, Bulgaria, August 2013
 - [[article][4]] Jialu Liu*, Jingbo Shang*, Chi Wang, Xiang Ren and Jiawei Han, **Mining Quality Phrases from Massive Text Corpora**, Proc. of 2015 ACM SIGMOD Int. Conf. on Management of Data (SIGMOD'15), Melbourne, Australia, May 2015. (* equally contributed, slides)
 
 - [[article][5]] Lee, Daniel, Huilai Miao, and Yuxuan Fan. **Analyzing Movies Using Phrase Mining**. (2021).
+
+- [[library][11]] minepy/minepy. **Maximal Information-based Non-parametric Exploration**. [[article][10]] Davide Albanese, Samantha Riccadonna, Claudio Donati, Pietro Franceschi, **A practical tool for maximal information coefficient analysis**, GigaScience, Volume 7, Issue 4, April 2018, giy032.
 
 [1]: https://www.nber.org/research/data/historical-cross-country-technology-adoption-hccta-dataset
 [2]: https://github.com/luozhouyang/AutoPhraseX
@@ -147,7 +149,8 @@ ACL 2013, Sofia, Bulgaria, August 2013
 [7]: https://www.sciencedirect.com/science/article/pii/S0304393203001247
 [8]: https://www.cs.cmu.edu/~ark/personas/
 [9]: https://www.cs.cmu.edu/~dbamman/pubs/pdf/bamman+oconnor+smith.acl13.pdf
-
+[10]: https://doi.org/10.1093/gigascience/giy032
+[11]: https://github.com/minepy/minepy
 
 
 
