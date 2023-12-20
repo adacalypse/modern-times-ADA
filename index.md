@@ -108,7 +108,7 @@ In this plot, for example, we can clearly see the impact of real-world wars on t
 
 Can we find out more events that can be critically reflected through the movie plot summaries? 
 
-We employed Autophrase to extract high quality words from the plot summaries, sorting by tf-idf score. We print the first movie to contain that phrase in its summary to understand where the world was from a cultural standpoint.
+We employed Autophrase [3] to extract high quality words from the plot summaries, sorting by tf-idf score. We print the first movie to contain that phrase in its summary to understand where the world was from a cultural standpoint.
 
 Notable pieces of technology make the list of high quality words, with modes of transport such as the **submarine**, **aircraft**, boat (**hull**), and car (a **jeep**) in The Impossible Voyage (1904), Aero NT-54 (1925), The Boat (1921), and Call Out the Marines (1941) respectively. Nuclear fears are alive as early as the 50s with nuclear **fallout** in Day the World Ended (1955). Robots make an appearance with a **computerized** kitten in Push-Button Kitty (1952) and an **android** in Frankenstein Meets the Space Monster (1965). Hypothetical technologies were also present with **cloning** in Tintin and the Lake of Sharks (1972). Finally in the internet age,  Hackers (1995) features **downloading** files.
 
@@ -118,10 +118,35 @@ After that, we identified several technological events and calculated the mutual
 
 But what about the feelings towards theses technological advancement and their impact on society? To discover this, we made a sentiment analysis of … 
 
+# References
 
+This work would not have been possible without the datasets and code libraries from the following sources.
 
+- [[dataset][1]] Historical Cross-Country Technology Adoption (HCCTA) Dataset. [[article][7]] Comin, D. and Hohijn B., **Cross-Country Technological Adoption: Making the Theories Face the Facts**. Journal of Monetary Economics, January 2004, pp. 39-83.
 
- 
+- [[dataset][8]] CMU Movie Summary Corpus. [[article][9]]**Learning Latent Personas of Film Characters**
+David Bamman, Brendan O'Connor, and Noah A. Smith
+ACL 2013, Sofia, Bulgaria, August 2013
+
+- [[dataset][6]] Geographic plots made with Natural Earth.
+
+- [[library][2]] luozhouyang/AutoPhraseX. **Automatic Phrase Mining from Massive Text Corpora in Python**.
+
+- [[article][3]] Jingbo Shang, Jialu Liu, Meng Jiang, Xiang Ren, Clare R Voss, Jiawei Han, **Automated Phrase Mining from Massive Text Corpora**, accepted by IEEE Transactions on Knowledge and Data Engineering, Feb. 2018.
+
+- [[article][4]] Jialu Liu*, Jingbo Shang*, Chi Wang, Xiang Ren and Jiawei Han, **Mining Quality Phrases from Massive Text Corpora**, Proc. of 2015 ACM SIGMOD Int. Conf. on Management of Data (SIGMOD'15), Melbourne, Australia, May 2015. (* equally contributed, slides)
+
+- [[article][5]] Lee, Daniel, Huilai Miao, and Yuxuan Fan. **Analyzing Movies Using Phrase Mining**. (2021).
+
+[1]: https://www.nber.org/research/data/historical-cross-country-technology-adoption-hccta-dataset
+[2]: https://github.com/luozhouyang/AutoPhraseX
+[3]: https://arxiv.org/abs/1702.04457
+[4]: https://hanj.cs.illinois.edu/pdf/sigmod15_jliu.pdf
+[5]: https://dsc-capstone.org/projects-2020-2021/reports/project_42.pdf
+[6]: https://www.naturalearthdata.com/
+[7]: https://www.sciencedirect.com/science/article/pii/S0304393203001247
+[8]: https://www.cs.cmu.edu/~ark/personas/
+[9]: https://www.cs.cmu.edu/~dbamman/pubs/pdf/bamman+oconnor+smith.acl13.pdf
 
 
 
