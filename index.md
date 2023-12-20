@@ -9,7 +9,7 @@ In the beginning, there was the void. Then came the big bang, which created all 
 
 {% include_relative figs/nb_movies_per_year.html %}
 
-Ever since, the development of cinema is characterized by technological breakthroughs, for the worst and for the best. To examine how this technological evolution shaped the movie industry, we used the CMU Movie Corpus dataset[B], which contains 42,306 plot summaries and corresponding metadata extracted from Freebase. We believe that we should observe a two-fold impact of technology on our dataset: one is on the technology used to produce the movies in itself, thus impacting actor careers and film genres; the other is technology itself as a narrative theme appearing in plot summaries. We seek to measure, through a statistical and data-centered lens, this cultural evolution.
+Ever since, the development of cinema is characterized by technological breakthroughs, for the worst and for the best. To examine how this technological evolution shaped the movie industry, we used the CMU Movie Corpus dataset[8], which contains 42,306 plot summaries and corresponding metadata extracted from Freebase. We believe that we should observe a two-fold impact of technology on our dataset: one is on the technology used to produce the movies in itself, thus impacting actor careers and film genres; the other is technology itself as a narrative theme appearing in plot summaries. We seek to measure, through a statistical and data-centered lens, this cultural evolution.
 
 
 # I - How Technology Shaped The Movie Industry
@@ -97,7 +97,7 @@ In addition to be of fewer number, many early movies in CMU dataset lack plot su
 ## Moore’s Law in the movie industry 
 
 Technology is like a high-speed train traveling at full speed. As it develops and reveals more and more of its potential, our societies also become increasingly impacted.
-To measure through the lens of the film industry this impact, we have extracted key-words related to technology from the summaries with the help of autophrase [... more methods].  
+To measure through the lens of the film industry this impact, we have extracted key-words related to technology from the summaries with the help of autophrase.  
 
 ### High quality phrases
 
@@ -133,6 +133,8 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[dataset][6]] Geographic plots made with **Natural Earth**.
 
+- [[dataset][D]] Wikipedia **List of lost films**
+
 - [[library][2]] luozhouyang/AutoPhraseX. **Automatic Phrase Mining from Massive Text Corpora in Python**.
 
 - [[article][3]] Jingbo Shang, Jialu Liu, Meng Jiang, Xiang Ren, Clare R Voss, Jiawei Han, **Automated Phrase Mining from Massive Text Corpora**, accepted by IEEE Transactions on Knowledge and Data Engineering, Feb. 2018.
@@ -143,9 +145,12 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[library][11]] minepy/minepy. **Maximal Information-based Non-parametric Exploration**. [[article][10]] Davide Albanese, Samantha Riccadonna, Claudio Donati, Pietro Franceschi, **A practical tool for maximal information coefficient analysis**, GigaScience, Volume 7, Issue 4, April 2018, giy032.
 
+- [[website][A]] Wikipedia **History of film technology**
+
+- [[website][C]] Wikipedia **Lost Film**
+
 
 [A]: https://en.wikipedia.org/wiki/History_of_film_technology
-[B]: http://www.cs.cmu.edu/~ark/personas/
 [C]: https://en.wikipedia.org/wiki/Lost_film
 [D]: https://en.wikipedia.org/wiki/List_of_lost_films
 
