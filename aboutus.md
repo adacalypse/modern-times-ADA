@@ -8,13 +8,10 @@ cover-img: /assets/img/teletob.jpg
 # About this project
 This project was created in the frame of the Applied Data Analysis (ADA) course at EPFL. The goal was to tell a story with a dataset. 
 
-<p class="center">
-<img src="./assets/img/oscar_ada3.png" alt="MGR">
-</p>
 # Who are we?
 We are ADAcalypse! A jovial and boisterous team who had a lot of fun telling this little story... You want more details? Here they are:
 
-<img align="left" width="100" height="100" src="assets/img/oscar_ada3.png">   **Oscar Hellmuller**, who parallelized beautifully real events with the abstract pattern present in the dataset
+<img align="left" width="100" height="100" src="./assets/img/oscar_ada3.png">   **Oscar Hellmuller**, who parallelized beautifully real events with the abstract pattern present in the dataset
 
 <img align="left" width="100" height="100" src="assets/img/oscar_ada3.png">   **Amine Benahmed**, who was ready to sacrifice real money to investigate the deepest layers of the dataset with the help of the API-GPT 4
 
