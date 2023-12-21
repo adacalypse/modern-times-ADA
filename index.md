@@ -5,7 +5,9 @@ subtitle: An ADA Data Story
 cover-img: /assets/img/moderntime_head.jpg
 ---
 
-In the beginning, there was the void. Then came the big bang, which created all conditions needed for the emergence of the seventh art - filmmaking. However, it was not until the 17th century that its precursor, the magic lantern, and its coloured projections, was invented. [[12]]
+# 0 - In The Beginning
+
+There was the void. Then came the big bang, which created all conditions needed for the emergence of the seventh art - filmmaking. However, it was not until the 17th century that its precursor, the magic lantern, and its coloured projections, was invented. [[12]]
 
 <style>
 
@@ -32,7 +34,9 @@ In the beginning, there was the void. Then came the big bang, which created all 
    </figcaption>
 </figure>
 
-A few years later, at the dawn of the 20th century, "Horse in Motion", one of the first chronophotographs, stirred up the crowds [A]. Then, with the advent of celluloid film, sequences became longer, more complex, and more popular until the birth of the movie industry. Ever since, it has grown in strength and power. One look at the number of films released over the last few decades suffices to notice its exponential expansion. 
+## Moore’s Law in the movie industry 
+
+A few years later, at the dawn of the 20th century, "Horse in Motion", one of the first chronophotographs, stirred up the crowds [A]. Then, with the advent of celluloid film, sequences became longer, more complex, and more popular until the birth of the movie industry. Technology is like a high-speed train traveling at full speed. One look at the number of films released over the last few decades suffices to notice its exponential expansion. 
 
 {% include_relative figs/nb_movies_per_year.html %}
 
@@ -56,9 +60,9 @@ Widespread introduction of sound and colour in the 20s revolutionized the indust
 ### Adapt – or perish
 In the face of this brutal change, actors need to adapt and seize new opportunities. But while some are able to change their acting style and technique, others miss the boat and the introduction of sound in the 30's thus mark an end to their sinking career. 
 
-To investigate how this event changed the careers landscape of actors, we inspected all actors that have played in at least one silent film and then compared the proportion of silent and non-silent movie in which they stared. Naturally, age and death are critical confounders in this analysis. As we unfortunately do not have access to the actor's date of passing, we take advantage from their date of birth to improve our analysis by selecting only actors who performed their last silent film below the age of 50. How many of them « survived » the arrival of sound? 
+To investigate how this event changed the careers landscape of actors, we inspected all actors that have played in at least one silent film and then compared the proportion of silent and non-silent movie in which they starred. Naturally, age and death are critical confounders in this analysis, as these can also explain the end of a career. As we unfortunately do not have access to the actor's date of passing, we take advantage from their date of birth to improve our analysis by selecting only actors who performed their last silent film below the age of 50. How many of them « survived » the arrival of sound? 
 
-In the illustrative pie graph below, the threshold parameter represents the ratio between the number of sound films and the number of silent films above which an actor is considered to have survived the transition. A threshold of 1 therefore means that the survivors have acted in at least as many sound films as silent films.
+In the pie graph below, the threshold parameter represents the ratio between the number of sound films and the number of silent films above which an actor is considered to have survived the transition. A threshold of 1 therefore means that the survivors have acted in at least as many sound films as silent films.
 
 {% include_relative figs/younger_silent_actors.html %}
 
@@ -85,9 +89,9 @@ Nevertheless, some like Charlie Chaplin survive true to themselves amidst the ch
 <br>
 ## The lost ones
 
-But not all were so lucky. Silent movies became so unpopular that "Most of [them] did not survive because of wholesale junking by the studios. There was no thought of ever saving these films. They simply needed vault space and the materials were expensive to house." (Film preservationist Robert A. Harris [C])
-In addition to that, movies usually were stored in flammable nitrate films before the 30s, which led to many unfortunate loss events: many movies turned to ash in vault fires, taking with them, the collective memory of beloved stories and iconic stars… 
-To track down these forgotten figures, we investigated another an external database from Wikidata [D] listing the most prominent lost films in the USA.
+But not all were so lucky. Silent movies became so unpopular that "Most of [them] did not survive because of wholesale junking by the studios. There was no thought of ever saving these films. They simply needed vault space and the materials were expensive to house." (Film preservationist Robert A. Harris [[C]])
+In addition to that, movies usually were stored in flammable nitrate films before the 30s, which led to many unfortunate loss events: many movies turned to ash in vault fires, taking with them the collective memory of beloved stories and iconic stars… 
+To track down these forgotten figures, we investigated another an external database from Wikidata [[D]] listing the most prominent lost films in the USA.
 
 {% include_relative figs/lost_films_per_year.html %}
 
@@ -108,31 +112,23 @@ If you have never heard of one of these, then you probably should look them up t
 
 # II – Movies as reflection of technology development and public opinion
 
-Movies are not only impacted by technological advancements but is also a reflection of this evolution and of the minds. 
-In this plot, for example, we can clearly see the impact of real-world wars on the number of war films made on the last century.
+Movies are not only impacted by technological advancements but are also a reflection of this evolution and of the minds of their creators. In this plot, for example, we can clearly see the impact of real-world wars on the number of war films made on the last century.
 <p class="center">
 <img src="./assets/img/Charlie_shoots.gif" alt="Chaplin tech" class = "center">
 </p>
 {% include_relative figs/genres_evolution_war.html %}
 
-Can we find out more events that can be critically reflected through the movie plot summaries? 
+### Missing plot summaries
 
-## Missing plot summaries
-
-Before analysing and parsing all the plots, let's have a look at the missing data. 
+By searching though movie plot summaries, we can discover when certain technologies entered the public consciousness. but we must be careful! Early decades are often lacking in movie plot summaries. Therefore it is possible that there are even earlier movies where a given technology makes an appearance.
 
 {% include_relative figs/missing_plot_summaries.html %}
 
-In addition to be of fewer number, many early movies in CMU dataset lack plot summaries... We must keep that in mind while analyzing them. 
-
-## Moore’s Law in the movie industry 
-
-Technology is like a high-speed train traveling at full speed. As it develops and reveals more and more of its potential, our societies also become increasingly impacted.
-To measure through the lens of the film industry this impact, we have extracted key-words related to technology from the summaries with the help of autophrase.  
+To measure through the lens of the film industry this impact, we have extracted key-words related to technology from the summaries with the help of Autophrase. 
 
 ### High quality phrases
 
-We employed Autophrase [3] to extract high quality words from the plot summaries, sorting by tf-idf score. We print the first movie to contain that phrase in its summary to understand where the world was from a cultural standpoint.
+We employed Autophrase [[3]] to extract high quality words from the plot summaries, sorting by tf-idf score. We print the first movie to contain that phrase in its summary to understand where the world was from a cultural standpoint.
 
 Notable pieces of technology make the list of high quality words, with modes of transport such as the **submarine**, **aircraft**, boat (**hull**), and car (a **jeep**) in The Impossible Voyage (1904), Aero NT-54 (1925), The Boat (1921), and Call Out the Marines (1941) respectively. Nuclear fears are alive as early as the 50s with nuclear **fallout** in Day the World Ended (1955). Robots make an appearance with a **computerized** kitten in Push-Button Kitty (1952) and an **android** in Frankenstein Meets the Space Monster (1965). Hypothetical technologies were also present with **cloning** in Tintin and the Lake of Sharks (1972). Finally in the internet age,  Hackers (1995) features **downloading** files.
 
