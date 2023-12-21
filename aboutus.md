@@ -20,5 +20,8 @@ We are ADAcalypse! A jovial and boisterous team who had a lot of fun telling thi
 **Olivia Ruggaber**, who was always there for help in the direst situation - and who made the nicest interactive plots of all
 
 **Oscar Hellmuller**, who parallelized beautifully real events with the abstract pattern present in the dataset
+<p class="center">
+<img src="./assets/img/oscar_ada.JPG" alt="MGR">
+</p>
 
 **Orfeas Liossatos**, who hanged on his beloved _datetime_ type until everything crashed
