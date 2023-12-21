@@ -118,27 +118,33 @@ Movies are not only impacted by technological advancements but are also a reflec
 </p>
 {% include_relative figs/genres_evolution_war.html %}
 
-### Missing plot summaries
+### High quality phrases
 
 By searching though movie plot summaries, we can discover when certain technologies entered the public consciousness. but we must be careful! Early decades are often lacking in movie plot summaries. Therefore it is possible that there are even earlier movies where a given technology makes an appearance.
 
 {% include_relative figs/missing_plot_summaries.html %}
 
-To measure through the lens of the film industry this impact, we have extracted key-words related to technology from the summaries with the help of Autophrase. 
+Despite this potential defficiency, we employed Autophrase [[3]] to extract high quality phrases (general entity names) from the plot summaries, sorting by TF-IDF score. We print best-performing earliest movies to contain that phrase in its summary to understand where the world was from a cultural standpoint.
 
-### High quality phrases
+Importantly, aside from disallowing proper nouns and non-English words in the search, we do not explicitly constrain the search to technology. Nevertheless notable pieces of technology make the list of high quality words, highlighting their cultural relevance.
 
-We employed Autophrase [[3]] to extract high quality words from the plot summaries, sorting by tf-idf score. We print the first movie to contain that phrase in its summary to understand where the world was from a cultural standpoint.
-
-Notable pieces of technology make the list of high quality words, with modes of transport such as the **submarine**, **aircraft**, boat (**hull**), and car (a **jeep**) in The Impossible Voyage (1904), Aero NT-54 (1925), The Boat (1921), and Call Out the Marines (1941) respectively. Nuclear fears are alive as early as the 50s with nuclear **fallout** in Day the World Ended (1955). Robots make an appearance with a **computerized** kitten in Push-Button Kitty (1952) and an **android** in Frankenstein Meets the Space Monster (1965). Hypothetical technologies were also present with **cloning** in Tintin and the Lake of Sharks (1972). Finally in the internet age,  Hackers (1995) features **downloading** files.
++ Modes of transport such as the **submarine**, **aircraft**, boat (**hull**), and car (a **jeep**) in The Impossible Voyage (1904), Aero NT-54 (1925), The Boat (1921), and Call Out the Marines (1941) respectively.
++ Nuclear fears are alive as early as the 50s with nuclear **fallout** in Day the World Ended (1955). 
++ Robots make an appearance with a **computerized** kitten in Push-Button Kitty (1952) and an **android** in Frankenstein Meets the Space Monster (1965). 
++ Hypothetical technologies were also present with **cloning** in Tintin and the Lake of Sharks (1972). 
++ Finally in the internet age,  Hackers (1995) features **downloading** files.
 
 {% include_relative figs/top_phrases.html %}
 
+### Technology in real life and the movies
 
-And this plot immediately confirmed our hunch: tech-related movie proportion is significantly and steadily increasing throughout the years. 
+How does the development of technologies in real life compare to the percentage of movies that feature that technology?
 
-_add plot of tech related movies_
-
+<figure>
+{% include_relative figs/tech_development.html %}
+<figcaption> (*) Quantity refers to (...) </figcaption>
+</figure>
+This plot immediately confirms our hunch: tech-related movie proportion is significantly and steadily increasing throughout the years. 
 
 But how well do movies reflect the reality of technology breakthrough and evolution? In other words, how do these technology emergence events _correlate_ with its presence in the movie industry? 
 Let’s visualize this correlation for several different keywords and look at them in time and in space! 
