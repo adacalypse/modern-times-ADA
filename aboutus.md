@@ -8,7 +8,9 @@ cover-img: /assets/img/teletob.jpg
 # About this project
 This project was created in the frame of the Applied Data Analysis (ADA) course at EPFL. The goal was to tell a story with a dataset. 
 
-
+<p class="center">
+<img src="./assets/img/oscar_ada3.png" alt="MGR">
+</p>
 # Who are we?
 We are ADAcalypse! A jovial and boisterous team who had a lot of fun telling this little story... You want more details? Here they are:
 
