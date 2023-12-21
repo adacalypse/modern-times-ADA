@@ -2,7 +2,7 @@
 layout: page
 title: "About Us"
 subtitle: An ADA Real Story
-cover-img: /assets/img/moderntime_head.jpg
+cover-img: /assets/img/modern_times_charlie.webp
 ---
 
 # About this project
