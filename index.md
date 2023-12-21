@@ -5,11 +5,38 @@ subtitle: An ADA Data Story
 cover-img: /assets/img/moderntime_head.jpg
 ---
 
-In the beginning, there was the void. Then came the big bang, which created all conditions needed for the emergence of the seventh art. However, it was not until the 17th century that its precursor, the magic lantern, and its coloured projections, was invented. A few years later, at the dawn of the 20th century, "Horse in Motion", one of the first chronophotographs, stirred up the crowds [A]. Then, with the advent of celluloid film, sequences became longer, more complex, and more popular until the birth of the movie industry. Ever since, it continues to grow in strength and power. One look at the number of films released over the last few decades suffice to notice its exponential expansion. 
+In the beginning, there was the void. Then came the big bang, which created all conditions needed for the emergence of the seventh art - filmmaking. However, it was not until the 17th century that its precursor, the magic lantern, and its coloured projections, was invented. [[12]]
+
+<style>
+
+  figure {
+    display:inline-block;
+    text-align: center;
+    margin: 30px;
+  }
+
+  figcaption {
+    font-style: italic;
+    font-size: 14px;
+    color: #555;
+    margin: 20px;
+  }
+
+</style>
+
+<figure class="center">
+  <img src="./assets/img/kircher_stenographic.jpg" alt = "Illustration of Kircher's Stenographic mirror" class = "center" width="300"> 
+   <figcaption>
+    Illustration of Kircher's Steganographic mirror
+    in his 1645 book <a href="https://books.google.nl/books?id=wYlDAAAAcAAJ&pg=PA792#v=onepage&q&f=false">Ars Magna Lucis et Umbrae</a>.
+   </figcaption>
+</figure>
+
+A few years later, at the dawn of the 20th century, "Horse in Motion", one of the first chronophotographs, stirred up the crowds [A]. Then, with the advent of celluloid film, sequences became longer, more complex, and more popular until the birth of the movie industry. Ever since, it has grown in strength and power. One look at the number of films released over the last few decades suffices to notice its exponential expansion. 
 
 {% include_relative figs/nb_movies_per_year.html %}
 
-Ever since, the development of cinema is characterized by technological breakthroughs, for the worst and for the best. To examine how this technological evolution shaped the movie industry, we used the CMU Movie Corpus dataset[8], which contains 42,306 plot summaries along with its corresponding metadata extracted from Freebase. We believe that we should observe a two-fold impact of technology on our dataset: one is on the technology used to produce the movies in itself, thus impacting actor careers and film genres; the other is technology itself as a narrative theme appearing in plot summaries. We seek to measure, through a statistical and data-centered lens, this cultural evolution.
+Ever since, the development of cinema has been characterized by technological breakthroughs, for better and for worse. To examine how this technological evolution shaped the movie industry, we used the CMU Movie Corpus dataset [[8]], which contains 42,306 plot summaries along with their corresponding metadata extracted from Freebase. We believe that we should observe a two-fold impact of technology on our dataset: one is on the technology used to produce the movies in itself, thus impacting actor careers and film genres; the other is technology itself as a narrative theme appearing in plot summaries. We seek to measure, through a statistical and data-centered lens, this cultural evolution.
 
 
 # I - How Technology Shaped The Movie Industry
@@ -27,7 +54,7 @@ Widespread introduction of sound and colour in the 20s revolutionized the indust
 ### Adapt – or perish
 In the face of this brutal change, actors need to adapt and seize new opportunities. But while some are able to change their acting style and technique, others miss the boat and the introduction of sound in the 30's thus mark an end to their sinking career. 
 
-To investigate how this event changed the careers landscape of actors, we inspected all actors that have played in at least one silent film and then compared the proportion of silent and non-silent movie in which they stared. Naturally, age and death are critical confounders in this analysis. As we unfortunately do not have access to the actor's date of passing, we take advantage from their date of birth to improve our analysis by selecting only actors who acted on their last silent film below the age of 50. How many of them « survived » the arrival of sound? 
+To investigate how this event changed the actor career landscape, we inspected all actors that have played in at least one silent film and then compared the proportion of silent and non-silent movies in which they stared. Naturally, age and death are critical confounders in this analysis, these could also explain the end of a career. As we unfortunately do not have access to the actor's date of passing, we take advantage from their date of birth to improve our analysis by selecting only actors who acted on their last silent film below the age of 50. How many of them « survived » the arrival of sound? 
 
 In the illustrative pie graph below, the threshold parameter represents the ratio between the number of sound films and the number of silent films above which an actor is considered to have survived the transition. A threshold of 1 therefore means that the survivors have acted in at least as many sound films as silent films.
 
@@ -149,6 +176,7 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[website][C]] Wikipedia **Lost Film**
 
+- [[image][12]] By Athanasius Kircher, Public Domain
 
 [A]: https://en.wikipedia.org/wiki/History_of_film_technology
 [C]: https://en.wikipedia.org/wiki/Lost_film
@@ -165,8 +193,7 @@ ACL 2013, Sofia, Bulgaria, August 2013
 [9]: https://www.cs.cmu.edu/~dbamman/pubs/pdf/bamman+oconnor+smith.acl13.pdf
 [10]: https://doi.org/10.1093/gigascience/giy032
 [11]: https://github.com/minepy/minepy
-
-
+[12]: https://commons.wikimedia.org/w/index.php?curid=52666213
 
 
 
