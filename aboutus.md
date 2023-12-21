@@ -2,7 +2,7 @@
 layout: page
 title: "About Us"
 subtitle: An ADA Real Story
-cover-img: /assets/img/modern_times_charlie.webp
+cover-img: /assets/img/teletob.jpg
 ---
 
 # About this project
@@ -21,7 +21,7 @@ We are ADAcalypse! A jovial and boisterous team who had a lot of fun telling thi
 
 **Oscar Hellmuller**, who parallelized beautifully real events with the abstract pattern present in the dataset
 <p class="center">
-<img src="./assets/img/oscar_ada.png" alt="MGR">
+<img src="./assets/img/oscar_ada2.jpg" alt="MGR">
 </p>
 
 **Orfeas Liossatos**, who hanged on his beloved _datetime_ type until everything crashed
