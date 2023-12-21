@@ -2,3 +2,8 @@
     display: block;
     margin: 0 auto;
   }
+
+  .map img {
+    position: absolute;
+    width: 100%;
+  }
