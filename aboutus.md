@@ -18,8 +18,8 @@ We are ADAcalypse! A jovial and boisterous team who had a lot of fun telling thi
 
 <img align="left" width="100" height="100" src="/assets/img/oscar_ada3.png">   **Lena de Sepibus**, who was way too excited at the idea of telling a story - whatever if it's based on data
 
-<img align="left" width="100" height="100" src="/assets/img/oscar_ada3.png">   **Olivia Ruggaber**, who was always there for help in the direst situation - and who made the nicest interactive plots of all
+<img align="left" width="100" height="100" src="/assets/img/olivia_ada.jpeg">   **Olivia Ruggaber**, who was always there for help in the direst situation - and who made the nicest interactive plots of all
 
-<img align="left" width="100" height="100" src="/assets/img/oscar_ada3.png">   **Orfeas Liossatos**, who hanged on his beloved _datetime_ type until everything crashed
+<img align="left" width="100" height="100" src="/assets/img/orfeas_ada.jpeg">   **Orfeas Liossatos**, who hanged on his beloved _datetime_ type until everything crashed
 
 
