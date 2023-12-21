@@ -13,9 +13,11 @@ Ever since, the development of cinema is characterized by technological breakthr
 
 
 # I - How Technology Shaped The Movie Industry
-<br>
+
+
 ## The emergence of sound and color
-<br>
+
+
  <p class="center">
 <img src="./assets/img/the-wizard-of-oz-black-and-white-to-colour.gif" alt = "Oz color" class = "center"> 
 </p>
