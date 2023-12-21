@@ -83,7 +83,9 @@ If you have never heard of one of these, then you probably should look them up t
 
 Movies are not only impacted by technological advancements but is also a reflection of this evolution and of the minds. 
 In this plot, for example, we can clearly see the impact of real-world wars on the number of war films made on the last century.
-
+<p class="center">
+<img src="./assets/img/Charlie_shoots.gif" alt="Chaplin tech" class = "center">
+</p>
 {% include_relative figs/genres_evolution_war.html %}
 
 Can we find out more events that can be critically reflected through the movie plot summaries? 
