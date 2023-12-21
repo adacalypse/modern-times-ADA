@@ -2,7 +2,7 @@
 layout: page
 title: "About Us"
 subtitle: An ADA Real Story
-cover-img: /assets/img/moderntime_head.jpg
+cover-img: /assets/img/teletob.jpg
 ---
 
 # About this project
@@ -20,5 +20,7 @@ We are ADAcalypse! A jovial and boisterous team who had a lot of fun telling thi
 **Olivia Ruggaber**, who was always there for help in the direst situation - and who made the nicest interactive plots of all
 
 **Oscar Hellmuller**, who parallelized beautifully real events with the abstract pattern present in the dataset
+<img align="left" width="100" height="100" src="./assets/img/oscar_ada3.png">
+
 
 **Orfeas Liossatos**, who hanged on his beloved _datetime_ type until everything crashed
