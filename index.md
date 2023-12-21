@@ -116,7 +116,7 @@ _add plot of tech related movies_
 But how well do movies reflect the reality of technology breakthrough and evolution? In other words, how do these technology emergence events _correlate_ with its presence in the movie industry? 
 Let’s visualize this correlation for several different keywords and look at them in time and in space! 
 
-_add plot mappemonde_ 
+{% include_relative figs/map_tech.html %}
 
 
 But what about the feelings towards theses technological advancement and their impact on society? To discover this, we made a sentiment analysis of … 
