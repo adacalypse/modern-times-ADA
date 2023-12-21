@@ -41,7 +41,9 @@ Ever since, the development of cinema has been characterized by technological br
 
 # I - How Technology Shaped The Movie Industry
 
+
 ## The emergence of sound and color
+
 
  <p class="center">
 <img src="./assets/img/the-wizard-of-oz-black-and-white-to-colour.gif" alt = "Oz color" class = "center"> 
@@ -54,7 +56,7 @@ Widespread introduction of sound and colour in the 20s revolutionized the indust
 ### Adapt – or perish
 In the face of this brutal change, actors need to adapt and seize new opportunities. But while some are able to change their acting style and technique, others miss the boat and the introduction of sound in the 30's thus mark an end to their sinking career. 
 
-To investigate how this event changed the actor career landscape, we inspected all actors that have played in at least one silent film and then compared the proportion of silent and non-silent movies in which they stared. Naturally, age and death are critical confounders in this analysis, these could also explain the end of a career. As we unfortunately do not have access to the actor's date of passing, we take advantage from their date of birth to improve our analysis by selecting only actors who acted on their last silent film below the age of 50. How many of them « survived » the arrival of sound? 
+To investigate how this event changed the careers landscape of actors, we inspected all actors that have played in at least one silent film and then compared the proportion of silent and non-silent movie in which they stared. Naturally, age and death are critical confounders in this analysis. As we unfortunately do not have access to the actor's date of passing, we take advantage from their date of birth to improve our analysis by selecting only actors who performed their last silent film below the age of 50. How many of them « survived » the arrival of sound? 
 
 In the illustrative pie graph below, the threshold parameter represents the ratio between the number of sound films and the number of silent films above which an actor is considered to have survived the transition. A threshold of 1 therefore means that the survivors have acted in at least as many sound films as silent films.
 
@@ -80,7 +82,7 @@ Nevertheless, some like Charlie Chaplin survive true to themselves amidst the ch
 <img src="./assets/img/chaplin_industry.gif" alt="Chaplin tech" class = "center">
 </p>
 
-
+<br>
 ## The lost ones
 
 But not all were so lucky. Silent movies became so unpopular that "Most of [them] did not survive because of wholesale junking by the studios. There was no thought of ever saving these films. They simply needed vault space and the materials were expensive to house." (Film preservationist Robert A. Harris [C])
@@ -108,7 +110,9 @@ If you have never heard of one of these, then you probably should look them up t
 
 Movies are not only impacted by technological advancements but is also a reflection of this evolution and of the minds. 
 In this plot, for example, we can clearly see the impact of real-world wars on the number of war films made on the last century.
-
+<p class="center">
+<img src="./assets/img/Charlie_shoots.gif" alt="Chaplin tech" class = "center">
+</p>
 {% include_relative figs/genres_evolution_war.html %}
 
 Can we find out more events that can be critically reflected through the movie plot summaries? 
@@ -145,8 +149,8 @@ Let’s visualize this correlation for several different keywords and look at th
 
 {% include_relative figs/map_tech.html %}
 
-
-But what about the feelings towards theses technological advancement and their impact on society? To discover this, we made a sentiment analysis of … 
+For example, the USA has a high mutual information coefficient for the technologies considered. Put simply, USA's cinema industry (hollywood) is highly reactive when it comes to the introduction of real life technologies.
+Now, what about the feelings towards theses technological advancement and their impact on society? To discover this, we made a sentiment analysis of … (Amine)
 
 # References
 
