@@ -128,26 +128,36 @@ Despite this potential defficiency, we employed Autophrase [[3]] to extract high
 
 Importantly, aside from disallowing proper nouns and non-English words in the search, we do not explicitly constrain the search to technology. Nevertheless notable pieces of technology make the list of high quality words, highlighting their cultural relevance.
 
-+ Modes of transport such as the **submarine**, **aircraft**, boat (**hull**), and car (a **jeep**) in The Impossible Voyage (1904), Aero NT-54 (1925), The Boat (1921), and Call Out the Marines (1941) respectively.
-+ Nuclear fears are alive as early as the 50s with nuclear **fallout** in Day the World Ended (1955). 
-+ Robots make an appearance with a **computerized** kitten in Push-Button Kitty (1952) and an **android** in Frankenstein Meets the Space Monster (1965). 
-+ Hypothetical technologies were also present with **cloning** in Tintin and the Lake of Sharks (1972). 
-+ Finally in the internet age,  Hackers (1995) features **downloading** files.
++ Modes of transport such as a **submarine** in *The Impossible Voyage (1904)*, **aircraft** in *Aero NT-54 (1925)*, a boat (**hull**) in *The Boat (1921)*, and a **jeep** in *Call Out the Marines (1941)*.
++ Nuclear fears are alive as early as the 50s with nuclear **fallout** in *The Day the World Ended (1955)*. 
++ Robots make an appearance with a **computerized** kitten in *Push-Button Kitty (1952)* and an **android** in *Frankenstein Meets the Space Monster (1965)*. 
++ Hypothetical technologies were also present with **cloning** in *Tintin and the Lake of Sharks (1972)*. 
++ Finally in the internet age,  *Hackers (1995)* features **downloading** files.
 
 {% include_relative figs/top_phrases.html %}
 
 ### Technology in real life and the movies
 
-How does the development of technologies in real life compare to the percentage of movies that feature that technology?
+How does the development of technologies in real life compare to the percentage of movies that feature that technology? We simultaneously display the adoption of a given technology from the Historical Cross-Country Technology Adoption (HCCTA) Dataset [[1]], and the percentage of movies that year that included at least a synonym of the technological term.
 
 <figure>
 {% include_relative figs/tech_development.html %}
-<figcaption> (*) Quantity refers to (...) </figcaption>
+<figcaption> 
+(*) Robots = industrial robots used in manufacturing sectors, aviation = passenger kilometers (millions), cars = privately owned vehicles (thousands), computers = PCs (thousands), phones = mainland phones (thousands). Telegraph = number of telegrams (thousands). The following countries are included : <br> 
+Australia, Austria, Belgium, Canada, Denmark, Finland, France, New Zealand,
+<br> 
+Germany, Greece, Iceland, Ireland, Italy, Japan, Luxembourg, Netherlands,
+<br>
+Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States of America
+</figcaption>
 </figure>
-This plot immediately confirms our hunch: tech-related movie proportion is significantly and steadily increasing throughout the years. 
+We observe that for many technologies, the proportion of movies that feature them has been significantly and steadily increasing throughout the years. Take the computer, whose earliest appearance in the dataset is with *Gog (1954)*, a science fiction film about a computer gone rogue. [[13]] By the year 2000, up to 2% of movies feature a computer in some way.
 
-But how well do movies reflect the reality of technology breakthrough and evolution? In other words, how do these technology emergence events _correlate_ with its presence in the movie industry? 
-Let’s visualize this correlation for several different keywords and look at them in time and in space! 
+*[Include picture of Gog (1954)]*
+
+We also note how most technologies feature in movies before they become widely commercially available. This speaks to the how technologies are an object of fascination and speculation. At the same time, technologies in disuse such as the Telegraph gain do not feature widely in films aside from when they are historically and thematically relevant like in the coming of age movie *The Tree of Life (2011)* in which a woman in the 1960s receives a telegram announcing her son's death. [[14]]
+
+But how well do movies reflect the reality of technology breakthrough and evolution? In other words, how does the emergence of these technologies _correlate_ with their presence in the movie industry? We compute a generalized measure of correlation, the maximum information coefficient (MIC), separately for different countries' movie and technological industries. [[10]]
 
 {% include_relative figs/map_tech.html %}
 
@@ -184,6 +194,11 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[image][12]] By Athanasius Kircher, Public Domain
 
+- [[website][13]] Wikipedia **Gog** (film)
+
+- [[website][14]] Wikipedia **The Tree of Life** (film)
+
+
 [A]: https://en.wikipedia.org/wiki/History_of_film_technology
 [C]: https://en.wikipedia.org/wiki/Lost_film
 [D]: https://en.wikipedia.org/wiki/List_of_lost_films
@@ -200,9 +215,5 @@ ACL 2013, Sofia, Bulgaria, August 2013
 [10]: https://doi.org/10.1093/gigascience/giy032
 [11]: https://github.com/minepy/minepy
 [12]: https://commons.wikimedia.org/w/index.php?curid=52666213
-
-
-
-
-
-
+[13]: https://en.wikipedia.org/wiki/Gog_(film)
+[14]: https://en.wikipedia.org/wiki/The_Tree_of_Life_(film)
