@@ -9,7 +9,7 @@ In the beginning, there was the void. Then came the big bang, which created all 
 
 {% include_relative figs/nb_movies_per_year.html %}
 
-Ever since, the development of cinema is characterized by technological breakthroughs, for the worst and for the best. To examine how this technological evolution shaped the movie industry, we used the CMU Movie Corpus dataset[8], which contains 42,306 plot summaries and corresponding metadata extracted from Freebase. We believe that we should observe a two-fold impact of technology on our dataset: one is on the technology used to produce the movies in itself, thus impacting actor careers and film genres; the other is technology itself as a narrative theme appearing in plot summaries. We seek to measure, through a statistical and data-centered lens, this cultural evolution.
+Ever since, the development of cinema is characterized by technological breakthroughs, for the worst and for the best. To examine how this technological evolution shaped the movie industry, we used the CMU Movie Corpus dataset[8], which contains 42,306 plot summaries along with its corresponding metadata extracted from Freebase. We believe that we should observe a two-fold impact of technology on our dataset: one is on the technology used to produce the movies in itself, thus impacting actor careers and film genres; the other is technology itself as a narrative theme appearing in plot summaries. We seek to measure, through a statistical and data-centered lens, this cultural evolution.
 
 
 # I - How Technology Shaped The Movie Industry
@@ -27,7 +27,7 @@ Widespread introduction of sound and colour in the 20s revolutionized the indust
 ### Adapt – or perish
 In the face of this brutal change, actors need to adapt and seize new opportunities. But while some are able to change their acting style and technique, others miss the boat and the introduction of sound in the 30's thus mark an end to their sinking career. 
 
-To investigate how this event changed the careers landscape of actors, we inspected all of them that have acted in at least one silent film and compared the proportion of silent and non-silent movie in which they stared. Naturally, age and death are critical confounders in this analysis. As we unfortunately do not have access to the actor's date of passing, we take advantage from their date of birth to improve our analysis by selecting only actors who acted on their last silent film below the age of 50. How many of them « survived » the arrival of sound? 
+To investigate how this event changed the careers landscape of actors, we inspected all actors that have played in at least one silent film and then compared the proportion of silent and non-silent movie in which they stared. Naturally, age and death are critical confounders in this analysis. As we unfortunately do not have access to the actor's date of passing, we take advantage from their date of birth to improve our analysis by selecting only actors who acted on their last silent film below the age of 50. How many of them « survived » the arrival of sound? 
 
 In the illustrative pie graph below, the threshold parameter represents the ratio between the number of sound films and the number of silent films above which an actor is considered to have survived the transition. A threshold of 1 therefore means that the survivors have acted in at least as many sound films as silent films.
 
