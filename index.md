@@ -111,9 +111,7 @@ Technology induced big changes, more safety, and a vaster realm of artistic oppo
 If you have never heard of one of these, then you probably should look them up to better comprehend humanity. For this, you can either choose the original book, or one of its dozens of adaptations. With so many options, everyone should get something out of it, so no excuse to not enrich your cultural background! 
 
 # II – Movies as reflection of technology development and public opinion
-<p align="left"><img src="assets/img/Charlie_shoots.gif" alt="" /></p>
-<p>Movies are not only impacted by technological advancements but are also a reflection of this evolution and of the minds of their creators. In this plot, for example, we can clearly see the impact of real-world wars on the number of war films made on the last century. 
-</p>
+
 <img src="assets/img/Charlie_shoots.gif" align="left" width="170" height="170" />  Movies are not only impacted by technological advancements but are also a reflection of this evolution and of the minds of their creators. In this plot, for example, we can clearly see the impact of real-world wars on the number of war films made on the last century. 
 
 {% include_relative figs/genres_evolution_war.html %}
