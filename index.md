@@ -204,7 +204,7 @@ Although average trends seem to indicate stable positive sentiment, zooming in t
 Star Wars Episode I: The Phantom Menace (1999) is particularly striking example of this phenomenon, where motion-captured CGI characters such as Jar-Jar Binks paved the way to later characters such as Gollum in The Lord of the Rings (2001), is now regarded as uncanny.
 
 <div class="image-container">
-    <img src="assets/img/jarjar.gif" alt="GIF jarjae" class="center">
+    <img src="assets/img/jarjar.gif" alt="GIF jarjae" class="center" width="300">
 </div>
 
 It remains to verify whether the difference of scores after a decade for those particular movies is statistically significant. We balance the set of reviews into two sets: reviews written within 10 years of the movie release, and reviews written at least 10 years after the movie release. Then we perform a T-test to determine whether the means are statistically different with 95% confidence. 
