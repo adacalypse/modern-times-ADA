@@ -136,7 +136,30 @@ Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States of A
 </figcaption>
 </figure>
 We observe that for many technologies, the proportion of movies that feature them has been significantly and steadily increasing throughout the years. Take the computer, whose earliest appearance in the dataset is with *Gog (1954)*, a science fiction film about a computer gone rogue. [[13]] By the year 2000, up to 2% of movies feature a computer in some way.
+<style>
 
+  figure {
+    display:inline-block;
+    text-align: center;
+    margin: 30px;
+  }
+
+  figcaption {
+    font-style: italic;
+    font-size: 14px;
+    color: #555;
+    margin: 20px;
+  }
+
+</style>
+
+<figure class="center">
+  <img src="./assets/img/gog_ada.jpg" alt = "" class = "center" width="300"> 
+   <figcaption>
+    Illustration of Kircher's Steganographic mirror
+    in his 1645 book <a href="https://www.imdb.com/title/tt0047033/">Ars Magna Lucis et Umbrae</a>.
+   </figcaption>
+</figure>
 *[Include picture of Gog (1954)]*
 
 We also note how most technologies feature in movies before they become widely commercially available. This speaks to the how technologies are an object of fascination and speculation. At the same time, technologies in disuse such as the Telegraph gain do not feature widely in films aside from when they are historically and thematically relevant like in the coming of age movie *The Tree of Life (2011)* in which a woman in the 1960s receives a telegram announcing her son's death. [[14]]
