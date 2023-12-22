@@ -197,7 +197,7 @@ And how does this picture change for specific genres? Taking for example Thrille
 
 We notice a general negative tendency for movies released in the 1970s. Why could that be? Perhaps an overly-ambitious use of technologies that have aged like milk, or the premature introduction of new technologies? In reality, in the 1970s many novel technologies appeared on the big screen for the first time, to modest reception, such as 2D computer graphics in Westworld (1973) and 3D computer graphics in Futureworld (1976). [[16]]
 
-Although average trends seem to indicate stable positive sentiment, zooming in to specific movies with heavy use of special effects and/or animation reveals a different story. Critic opinions about technology seem to take a nose-dive after around 10 years.
+Although average trends seem to indicate stable positive sentiment, zooming in to specific movies with heavy use of special effects and/or animation reveals a different story. Critic opinions about technology seem to take a nose-dive after around 10 years. This seems like a common perception to have. Indeed, as we get used to the latest, up-to date developements in CGIs and special effects, we might find poorly made or even ridiculous some effects in older films, thus decreasing the overall sentiment scores.
 
 {% include_relative figs/movies_delay.html %}
 
