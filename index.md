@@ -50,7 +50,7 @@ In the face of this brutal change, actors need to adapt and seize new opportunit
 
 To investigate how this event changed the careers landscape of actors, we inspected all actors that have played in at least one silent film and then compared the proportion of silent and non-silent movie in which they starred. Naturally, age and death are critical confounders in this analysis, as these can also explain the end of a career. As we unfortunately do not have access to the actor's date of passing, we take advantage from their date of birth to improve our analysis by selecting only actors who performed their last silent film below the age of 40. How many of them « survived » the arrival of sound? 
 
-In the pie graph below, the threshold parameter represents the ratio between the number of sound films and the number of silent films above which an actor is considered to have survived the transition. A threshold of 1 means that actors who have acted in at least as many sound films as silent films are considered to have survived. A threshold of 0.5 means that actors who have acted in twice as many sound films as silent films are considered to have survived.
+In the pie graph below, the threshold parameter represents the ratio between the number of sound films and the number of silent films above which an actor is considered to have survived the transition. A threshold of 1 means that actors who have acted in at least as many sound films as silent films are considered to have survived. A threshold of 0.5 means that actors who have acted in half as many sound films as silent films are considered to have survived.
 
 {% include_relative figs/younger_silent_actors.html %}
 
