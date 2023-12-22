@@ -7,3 +7,13 @@
     position: absolute;
     width: 100%;
   }
+
+
+  .image-container {
+    display: flex; /* Use flexbox to arrange images horizontally */
+}
+
+.image-container img {
+    width: 33.33%; /* Set each image to take up one-third of the container width */
+    height: auto; /* Maintain the aspect ratio of the images */
+}
