@@ -13,12 +13,12 @@ We are ADAcalypse! A jovial and boisterous team who had a lot of fun telling thi
 
 <img src="./assets/img/oscar_ada3.png" align="left" width="100" height="100" hspace="10"/> **Oscar Hellmüller**, who parallelized beautifully real life events with the strange looking abstract data
 
-<img src="/assets/img/oscar_ada3.png" align="left" width="100" height="100" hspace="10"/>   **Amine Benahmed**, who was ready to sacrifice real money to investigate the deepest layers of the dataset with the help of the API-GPT 4
+<img src="./assets/img/oscar_ada3.png" align="left" width="100" height="100" hspace="10"/>   **Amine Benahmed**, who was ready to sacrifice real money to investigate the deepest layers of the dataset with the help of the API-GPT 4
 
-<img src="/assets/img/oscar_ada3.png" align="left" width="100" height="100" hspace="10"/>  **Lena de Sepibus**, who was way too excited at the idea of telling a story - whatever if it's based on data
+<img src="./assets/img/oscar_ada3.png" align="left" width="100" height="100" hspace="10"/>  **Lena de Sepibus**, who was way too excited at the idea of telling a story - whatever if it's based on data
 
-<img src="/assets/img/oscar_ada3.png" align="left" width="100" height="100" hspace="10"/>  **Olivia Ruggaber**, who was always there for help in the direst situation - and who made the nicest interactive plots of all
+<img src="./assets/img/oscar_ada3.png" align="left" width="100" height="100" hspace="10"/>  **Olivia Ruggaber**, who was always there for help in the direst situation - and who made the nicest interactive plots of all
 
-<img src="/assets/img/orfeas_ada.jpeg" align="left" width="100" height="100" hspace="10"/>   **Orfeas Liossatos**, who hanged on his beloved _datetime_ type until everything crashed
+<img src="./assets/img/orfeas_ada.jpeg" align="left" width="100" height="100" hspace="10"/>   **Orfeas Liossatos**, who hanged on his beloved _datetime_ type until everything crashed
 
 
