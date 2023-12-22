@@ -9,13 +9,18 @@
   }
 
 
-  .image-container {
-    display: flex; /* Use flexbox to arrange images horizontally */
+.image-container {
+  display: flex; /* Use flexbox to arrange images horizontally */
 }
 
 .image-container img {
-    width: 33.33%; /* Set each image to take up one-third of the container width */
-    height: auto; /* Maintain the aspect ratio of the images */
+  width: 48%; /* Set each image to take up 48% of the container width */
+  margin-right: 2%; /* Add a 2% margin to the right of each image */
+  height: auto; /* Maintain the aspect ratio of the images */
+}
+
+.image-container img:last-child {
+  margin-right: 0; /* Remove the margin for the last image to prevent extra spacing */
 }
 
 figure {

@@ -83,9 +83,8 @@ Who are the biggest losers amongst our dataset? A quick analysis revealed that u
 So many forgotten figures! But while the original content is gone, proof of their popularity and impact on society still exist through some posters. Just look at this attracting depictions of "Fox Movietone Follies of 1929", wouldn't you want to watch it?
 
 <div class="image-container">
-    <img src="./assets/img/Fox_movie_lost_1.jpg" alt="Fox 1" class ="image-container" >
-    <img src="./assets/img/Fox_movie_lost_2.jpg" alt="Fox 2" class ="image-container">
-    <img src="./assets/img/Fox_movie_lost_3.jpg" alt="Fox 3" class ="image-container">
+    <img src="./assets/img/Fox_movie_lost_1.jpg" alt="Fox 1">
+    <img src="./assets/img/Fox_movie_lost_2.jpg" alt="Fox 2">
 </div>
 
 
