@@ -173,7 +173,9 @@ Thanks to our 6th group member ChatGPT, we were able to produce a list of words 
 
 {% include_relative figs/most_least_liked_word.html %}
 
-<img src="assets/img/avatar_gif.gif" align="left" width="180" height="140" hspace="10"/> For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum a word like virus would appear in in apocalyptic scenarios. 
+For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum a word like virus would appear in in apocalyptic scenarios. 
+<img src="assets/img/avatar_gif.gif" align="center" width="180" height="140" hspace="10"/> 
+<img src="walking_dead.gif" align="center" width="180" height="140" hspace="10"/> 
 
 # References
 
