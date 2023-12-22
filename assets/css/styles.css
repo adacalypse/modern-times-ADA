@@ -9,11 +9,31 @@
   }
 
 
-  .image-container {
-    display: flex; /* Use flexbox to arrange images horizontally */
+  .centered-container {
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+}
+
+.image-container {
+    display: flex;
+    margin: 0 -10px; /* Add negative margin to create space between images */
 }
 
 .image-container img {
-    width: 33.33%; /* Set each image to take up one-third of the container width */
-    height: auto; /* Maintain the aspect ratio of the images */
+    width: 48%;
+    margin: 0 10px; /* Add space on both sides of each image */
+    height: auto;
+}
+
+figure {
+  display:inline-block;
+  text-align: center;
+  margin: 30px;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 14px;
+  color: #555;
+  margin: 20px;
 }

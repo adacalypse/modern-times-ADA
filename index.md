@@ -9,22 +9,7 @@ cover-img: /assets/img/moderntime_head.jpg
 
 There was the void. Then came the big bang, which created all conditions needed for the emergence of the seventh art - filmmaking. However, it was not until the 17th century that its precursor, the magic lantern, and its coloured projections, was invented. [[12]]
 
-<style>
 
-  figure {
-    display:inline-block;
-    text-align: center;
-    margin: 30px;
-  }
-
-  figcaption {
-    font-style: italic;
-    font-size: 14px;
-    color: #555;
-    margin: 20px;
-  }
-
-</style>
 
 <figure class="center">
   <img src="./assets/img/kircher_stenographic.jpg" alt = "Illustration of Kircher's Stenographic mirror" class = "center" width="300"> 
@@ -95,14 +80,12 @@ Who are the biggest losers amongst our dataset? A quick analysis revealed that u
 
 {% include_relative figs/lost_star_count.html %}
 
-So many forgotten figures! But while the original content is gone, proof of their popularity and impact on society still exist through some posters. Just look at this attracting depictions of "Fox Movietone Follies of 1929", wouldn't you want to watch it?
+So many forgotten figures! But while the original content is gone, proof of their popularity and impact on society still exist through some posters. Just look at these attracting depictions of "Fox Movietone Follies of 1929", wouldn't you want to watch it?
 
 <div class="image-container">
-    <img src="./assets/img/Fox_movie_lost_1.jpg" alt="Fox 1" class ="image-container" >
-    <img src="./assets/img/Fox_movie_lost_2.jpg" alt="Fox 2" class ="image-container">
-    <img src="./assets/img/Fox_movie_lost_3.jpg" alt="Fox 3" class ="image-container">
+    <img src="./assets/img/Fox_movie_lost_1.jpg" alt="Fox 1" class="image-container">
+    <img src="./assets/img/Fox_movie_lost_2.jpg" alt="Fox 2" class="image-container">
 </div>
-
 
 ## Remakes
 
@@ -151,8 +134,29 @@ Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States of A
 </figcaption>
 </figure>
 We observe that for many technologies, the proportion of movies that feature them has been significantly and steadily increasing throughout the years. Take the computer, whose earliest appearance in the dataset is with *Gog (1954)*, a science fiction film about a computer gone rogue. [[13]] By the year 2000, up to 2% of movies feature a computer in some way.
+<style>
 
-*[Include picture of Gog (1954)]*
+  figure {
+    display:inline-block;
+    text-align: center;
+    margin: 30px;
+  }
+
+  figcaption {
+    font-style: italic;
+    font-size: 14px;
+    color: #555;
+    margin: 20px;
+  }
+
+</style>
+
+<figure class="center">
+  <img src="./assets/img/gog_ada.jpg" alt = "Scene of the film gog" class = "center" width="300"> 
+   <figcaption>
+    Scene with Dr. David Sheppard and his flamethrower against the robot, 1954. <a href="https://www.imdb.com/title/tt0047033/"> gog </a>
+   </figcaption>
+</figure>
 
 We also note how most technologies feature in movies before they become widely commercially available. This speaks to the how technologies are an object of fascination and speculation. At the same time, technologies in disuse such as the Telegraph gain do not feature widely in films aside from when they are historically and thematically relevant like in the coming of age movie *The Tree of Life (2011)* in which a woman in the 1960s receives a telegram announcing her son's death. [[14]]
 
@@ -161,7 +165,15 @@ But how well do movies reflect the reality of technology breakthrough and evolut
 {% include_relative figs/map_tech.html %}
 
 For example, the USA has a high mutual information coefficient for the technologies considered. Put simply, USA's cinema industry (hollywood) is highly reactive when it comes to the introduction of real life technologies.
-Now, what about the feelings towards theses technological advancement and their impact on society? To discover this, we made a sentiment analysis of … (Amine)
+Now, what about the feelings towards theses technological advancement and their impact on society? o discover this, we ran a sentiment analysis on both plot summaries and movie reviews taken from Rotten Tomatoes [[15]]. 
+
+## Sentiment analysis on movie summaries
+
+Thanks to our 6th group member ChatGPT, we were able to produce a list of words related to technology. For each word, we computed the average sentiment score considering its context in each summary. You can see below the top ten words used in a positive context in movies, as well as the top ten most negatively connotated words. 
+
+{% include_relative figs/most_least_liked_word.html %}
+
+<img src="assets/img/avatar-icon.png" align="right" width="160" height="140" hspace="10"/> For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum a word like virus would appear in in apocalyptic scenarios. 
 
 # References
 
@@ -197,6 +209,8 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[website][14]] Wikipedia **The Tree of Life** (film)
 
+- [[dataset][15]] Kaggle - Rotten Tomatoes movies and critic reviews dataset.
+
 
 [A]: https://en.wikipedia.org/wiki/History_of_film_technology
 [C]: https://en.wikipedia.org/wiki/Lost_film
@@ -216,3 +230,4 @@ ACL 2013, Sofia, Bulgaria, August 2013
 [12]: https://commons.wikimedia.org/w/index.php?curid=52666213
 [13]: https://en.wikipedia.org/wiki/Gog_(film)
 [14]: https://en.wikipedia.org/wiki/The_Tree_of_Life_(film)
+[15]: https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data?select=rotten_tomatoes_critic_reviews.csv
