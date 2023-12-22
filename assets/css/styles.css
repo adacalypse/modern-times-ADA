@@ -6,21 +6,25 @@
   .map img {
     position: absolute;
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
 
+  .centered-container {
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+}
+
 .image-container {
-  display: flex; /* Use flexbox to arrange images horizontally */
+    display: flex;
+    margin: 0 -10px; /* Add negative margin to create space between images */
 }
 
 .image-container img {
-  width: 48%; /* Set each image to take up 48% of the container width */
-  margin-right: 2%; /* Add a 2% margin to the right of each image */
-  height: auto; /* Maintain the aspect ratio of the images */
-}
-
-.image-container img:last-child {
-  margin-right: 0; /* Remove the margin for the last image to prevent extra spacing */
+    width: 48%;
+    margin: 0 10px; /* Add space on both sides of each image */
+    height: auto;
 }
 
 figure {

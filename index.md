@@ -83,10 +83,9 @@ Who are the biggest losers amongst our dataset? A quick analysis revealed that u
 So many forgotten figures! But while the original content is gone, proof of their popularity and impact on society still exist through some posters. Just look at these attracting depictions of "Fox Movietone Follies of 1929", wouldn't you want to watch it?
 
 <div class="image-container">
-    <img src="./assets/img/Fox_movie_lost_1.jpg" alt="Fox 1">
-    <img src="./assets/img/Fox_movie_lost_2.jpg" alt="Fox 2">
+    <img src="./assets/img/Fox_movie_lost_1.jpg" alt="Fox 1" class="image-container">
+    <img src="./assets/img/Fox_movie_lost_2.jpg" alt="Fox 2" class="image-container">
 </div>
-
 
 ## Remakes
 
@@ -163,7 +162,11 @@ We also note how most technologies feature in movies before they become widely c
 
 But how well do movies reflect the reality of technology breakthrough and evolution? In other words, how does the emergence of these technologies _correlate_ with their presence in the movie industry? To answer this questiom, we computed a generalized measure of correlation, the maximum information coefficient (MIC), separately for different countries' movie and technological industries. [[10]]
 
-{% include_relative figs/map_tech.html %}
+
+<div class="map">
+    {% include_relative figs/map_tech.html %}
+</div>
+
 
 For example, the USA has a high mutual information coefficient for the technologies considered. Put simply, USA's cinema industry (hollywood) is highly reactive when it comes to the introduction of real life technologies.
 Now, what about the feelings towards theses technological advancement and their impact on society? o discover this, we ran a sentiment analysis on both plot summaries and movie reviews taken from Rotten Tomatoes [[15]]. 
@@ -174,7 +177,16 @@ Thanks to our 6th group member ChatGPT, we were able to produce a list of words 
 
 {% include_relative figs/most_least_liked_word.html %}
 
-For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum a word like virus would appear in in apocalyptic scenarios.
+For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum a word like virus would appear in in apocalyptic scenarios. 
+<div class="image-container">
+    <img src="assets/img/avatar_gif.gif" alt="GIF avatar" class="image-container">
+
+    <img src="assets/img/walking_dead.gif" alt="GIF walking dead" class="image-container">
+<figcaption>
+Avatar on the left, Virus in the walking dead in the right
+</figcaption>
+</div>
+
 
 
 # References
