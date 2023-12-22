@@ -258,6 +258,11 @@ Starting from the two extremes sentiment scores of this heatmap,  we see that th
 
 By unraveling the ties between technology and the exploding movie industry, we have made several surprising discoveries. New storage formats have preserved our cultural heritage from an age of silent and black-and-white films, where many careers were snuffed out after the transition to sound and color. Real world developments such as wars insert themselves into the minds of film creators, nestled alongside speculations of future technologies. As narrative elements, technologies adapt both positive and negative roles, which speaks to their cultural influence. As tools for creating movies, technology elicits both extreme negative reactions from skeptical critics, and positive reactions from the open-minded. Overall, the interplay of technology and cinema provides rich grounds for cultural investigation, which we found deep pleasure in uncovering.
 
+<figure class="center">
+  <img src="assets/img/Chaplin_walks_away.gif"/>
+  <figcaption> Charlie Chaplin walks into the distance with a blind flower girl in City Lights (1931) <a href="https://www.imdb.com/title/tt0021749/"> IMDb </a> </figcaption>
+</figure>
+
 # References
 
 This work would not have been possible without the datasets and code libraries from the following sources.
