@@ -75,8 +75,7 @@ We then consider the following: the survival rate for actors who have acted in l
 
 {% include_relative figs/matched_actors.html %}
 
-... i'll still write a conclusion about this
-
+From this additional analysis we observe an interesting trend: actors that have starred in fewer films initially are less prone to have a declining career after the rising trend of synchronized film and score. While, a majority of established actors have trouble picking up their career.
 
 
 ### Some exceptions… 
