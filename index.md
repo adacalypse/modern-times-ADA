@@ -166,7 +166,15 @@ But how well do movies reflect the reality of technology breakthrough and evolut
 {% include_relative figs/map_tech.html %}
 
 For example, the USA has a high mutual information coefficient for the technologies considered. Put simply, USA's cinema industry (hollywood) is highly reactive when it comes to the introduction of real life technologies.
-Now, what about the feelings towards theses technological advancement and their impact on society? To discover this, we made a sentiment analysis of … (Amine)
+Now, what about the feelings towards theses technological advancement and their impact on society? o discover this, we ran a sentiment analysis on both plot summaries and movie reviews taken from Rotten Tomatoes [[15]]. 
+
+## Sentiment analysis on movie summaries
+
+Thanks to our 6th group member ChatGPT, we were able to produce a list of words related to technology. For each word, we computed the average sentiment score considering its context in each summary. You can see below the top ten words used in a positive context in movies, as well as the top ten most negatively connotated words. 
+
+{% include_relative figs/most_least_liked_word.html %}
+
+For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum a word like virus would appear in in apocalyptic scenarios.
 
 # References
 
@@ -202,6 +210,8 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[website][14]] Wikipedia **The Tree of Life** (film)
 
+- [[dataset][15]] Kaggle - Rotten Tomatoes movies and critic reviews dataset.
+
 
 [A]: https://en.wikipedia.org/wiki/History_of_film_technology
 [C]: https://en.wikipedia.org/wiki/Lost_film
@@ -221,3 +231,4 @@ ACL 2013, Sofia, Bulgaria, August 2013
 [12]: https://commons.wikimedia.org/w/index.php?curid=52666213
 [13]: https://en.wikipedia.org/wiki/Gog_(film)
 [14]: https://en.wikipedia.org/wiki/The_Tree_of_Life_(film)
+[15]: https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data?select=rotten_tomatoes_critic_reviews.csv
