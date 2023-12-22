@@ -156,7 +156,7 @@ We observe that for many technologies, the proportion of movies that feature the
 <figure class="center">
   <img src="./assets/img/gog_ada.jpg" alt = "Scene of the film gog" class = "center" width="300"> 
    <figcaption>
-    Scene with Dr. David Sheppard and his flamethrower against the robot, 1954. <a href="https://www.imdb.com/title/tt0047033/"> </a>
+    Scene with Dr. David Sheppard and his flamethrower against the robot, 1954. <a href="https://www.imdb.com/title/tt0047033/"> gog </a>
    </figcaption>
 </figure>
 
