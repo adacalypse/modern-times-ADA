@@ -2,7 +2,7 @@
 layout: page
 title: "About Us"
 subtitle: An ADA Real Story
-cover-img: /assets/img/All_about_us_film.jpg
+cover-img: /assets/img/All_about_us_film_cropped.jpg
 ---
 # About this project
 This project was created in the frame of the Applied Data Analysis (ADA) course at EPFL. The goal was to tell a story with a dataset. 
