@@ -84,19 +84,18 @@ From this additional analysis we observe an interesting trend: actors that have 
 
 ## The lost ones
 
-But not all were so lucky. Silent movies became so unpopular that "Most of [them] did not survive because of wholesale junking by the studios. There was no thought of ever saving these films. They simply needed vault space and the materials were expensive to house." (Film preservationist Robert A. Harris [[C]])
+But not all were so lucky. Silent movies became so unpopular that "Most of them did not survive because of wholesale junking by the studios. There was no thought of ever saving these films. They simply needed vault space and the materials were expensive to house." (Film preservationist Robert A. Harris [[C]])
 In addition to that, movies usually were stored in flammable nitrate films before the 30s, which led to many unfortunate loss events: many movies turned to ash in vault fires, taking with them the collective memory of beloved stories and iconic stars… 
 To track down these forgotten figures, we investigated another an external database from Wikidata [[D]] listing the most prominent lost films in the USA.
 
 {% include_relative figs/lost_films_per_year.html %}
 
 As the dataset is quite small and only considers the release date of the movies – and not their destruction date – we cannot infer much from the graph. But it is interesting to note that while many movies were lost until the 40s, it then became a very rare event thanks to the transition to safer storage films such as cellulose triacetate or polyester films. 
-Who are the biggest losers amongst our dataset? A quick analysis revealed that only two actors played in more than one subsequently lost movie: Koyel Mullick and M.G Ramachandra. Let’s take a minute to remember their face and efforts:
+Who are the biggest losers amongst our dataset? A quick analysis revealed that up to fiftenn actors played in more than one subsequently lost movie! Which lost movies did take the most actors with them in their fall?
 
-<img src="MGR_portrait.jpg" style="float:left; margin-right:10px;">
-<img src="/assets/img/mullick.jpg" style="float:left;">
+{% include_relative figs/lost_star_count.html %}
 
-
+So many forgotten figures! But while the original content is gone, proof of their popularity and impact on society still exist through some posters. Just look at this attracting depictions of "Fox Movietone Follies of 1929", wouldn't you want to watch it?
 
 
 ## Remakes
