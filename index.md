@@ -180,7 +180,13 @@ Thanks to our 6th group member ChatGPT, we were able to produce a list of words 
 For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum a word like virus would appear in in apocalyptic scenarios. 
 <div class="image-container">
     <img src="assets/img/avatar_gif.gif" alt="GIF avatar" class="image-container">
+     <figcaption>
+       Avatar
+     </figcaption>
     <img src="assets/img/walking_dead.gif" alt="GIF walking dead" class="image-container">
+       <figcaption>
+         Virus, the walking dead
+       </figcaption>
 </div>
 
 
