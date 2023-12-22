@@ -7,7 +7,7 @@ cover-img: /assets/img/moderntime_head.jpg
 
 # In The Beginning
 
-There was the void. Then came the big bang, which created all conditions needed for the emergence of the seventh art - filmmaking. However, it was not until the 17th century that its precursor, the magic lantern, and its coloured projections, was invented. [[12]]
+There was the void. Then came the big bang, which created all conditions needed for the emergence of the seventh art - filmmaking. However, it was not until the 17th century that its precursor, the magic lantern, and its coloured projections, was invented. [[1]]
 
 
 
@@ -20,11 +20,11 @@ There was the void. Then came the big bang, which created all conditions needed 
 </figure>
 
 ## Moore’s Law in the movie industry 
-A few years later, at the dawn of the 20th century, "Horse in Motion", one of the first chronophotographs, stirred up the crowds [[20]]. Then, with the advent of celluloid film, sequences became longer, more complex, and more popular until the birth of the movie industry. Technology is like a high-speed train traveling at full speed. One look at the number of films released over the last few decades suffices to notice its exponential expansion. 
+A few years later, at the dawn of the 20th century, "Horse in Motion", one of the first chronophotographs, stirred up the crowds [[2]]. Then, with the advent of celluloid film, sequences became longer, more complex, and more popular until the birth of the movie industry. Technology is like a high-speed train traveling at full speed. One look at the number of films released over the last few decades suffices to notice its exponential expansion. 
 
 {% include_relative figs/nb_movies_per_year.html %}
 
-Ever since, the development of cinema has been characterized by technological breakthroughs, for better and for worse. To examine how this technological evolution shaped the movie industry, we used the CMU Movie Corpus dataset [[8]], which contains 42,306 plot summaries along with their corresponding metadata extracted from Freebase. We believe that we should observe a two-fold impact of technology on our dataset: one is on the technology used to produce the movies in itself, thus impacting actor careers and film genres; the other is technology itself as a narrative theme appearing in plot summaries. We seek to measure, through a statistical and data-centered lens, this cultural evolution.
+Ever since, the development of cinema has been characterized by technological breakthroughs, for better and for worse. To examine how this technological evolution shaped the movie industry, we used the CMU Movie Corpus dataset [[3]], which contains 42,306 plot summaries along with their corresponding metadata extracted from Freebase. We believe that we should observe a two-fold impact of technology on our dataset: one is on the technology used to produce the movies in itself, thus impacting actor careers and film genres; the other is technology itself as a narrative theme appearing in plot summaries. We seek to measure, through a statistical and data-centered lens, this cultural evolution.
 
 
 # I - How Technology Shaped The Movie Industry
@@ -48,7 +48,7 @@ In the face of this brutal change, actors need to adapt and seize new opportunit
 
 ### Adapt – or perish
 
-To investigate how this event changed the careers landscape of actors, we inspected all actors that have played in at least one silent film and then compared the proportion of silent and non-silent movie in which they starred. Naturally, age and death are critical confounders in this analysis, as these can also explain the end of a career. As we unfortunately do not have access to the actor's date of passing, we take advantage from their date of birth to improve our analysis by selecting only actors who performed their last silent film below the age of 50. How many of them « survived » the arrival of sound? 
+To investigate how this event changed the careers landscape of actors, we inspected all actors that have played in at least one silent film and then compared the proportion of silent and non-silent movie in which they starred. Naturally, age and death are critical confounders in this analysis, as these can also explain the end of a career. As we unfortunately do not have access to the actor's date of passing, we take advantage from their date of birth to improve our analysis by selecting only actors who performed their last silent film below the age of 40. How many of them « survived » the arrival of sound? 
 
 In the pie graph below, the threshold parameter represents the ratio between the number of sound films and the number of silent films above which an actor is considered to have survived the transition. A threshold of 1 means that actors who have acted in at least as many sound films as silent films are considered to have survived. A threshold of 0.5 means that actors who have acted in twice as many sound films as silent films are considered to have survived.
 
@@ -77,9 +77,9 @@ Nevertheless, some like Charlie Chaplin, who starred in 87 movies throughout his
 
 ## The lost ones
 
-But not all were so lucky. Silent movies became so unpopular that "Most of them did not survive because of wholesale junking by the studios. There was no thought of ever saving these films. They simply needed vault space and the materials were expensive to house." (Film preservationist Robert A. Harris [[21]])
+But not all were so lucky. Silent movies became so unpopular that "Most of them did not survive because of wholesale junking by the studios. There was no thought of ever saving these films. They simply needed vault space and the materials were expensive to house." (Film preservationist Robert A. Harris [[4]])
 In addition to that, movies usually were stored in flammable nitrate films before the 30s, which led to many unfortunate loss events: many movies turned to ash in vault fires, taking with them the collective memory of beloved stories and iconic stars… 
-To track down these forgotten figures, we investigated another an external database from Wikidata [[22]] listing the most prominent lost films in the USA.
+To track down these forgotten figures, we investigated another an external database from Wikidata [[5]] listing the most prominent lost films in the USA.
 
 {% include_relative figs/lost_films_per_year.html %}
 
@@ -88,7 +88,7 @@ Who are the biggest losers amongst our dataset? A quick analysis revealed that u
 
 {% include_relative figs/lost_star_count.html %}
 
-So many forgotten figures! But while the original content is gone, proof of their popularity and impact on society still exist through some posters. Just look at these attracting depictions of "Fox Movietone Follies of 1929", wouldn't you want to watch it? [[18]][[19]]
+So many forgotten figures! But while the original content is gone, proof of their popularity and impact on society still exist through some posters. Just look at these attracting depictions of "Fox Movietone Follies of 1929", wouldn't you want to watch it? [[6]][[7]]
 
 <div class="image-container">
     <img src="./assets/img/Fox_movie_lost_1.jpg" alt="Fox 1" class="image-container">
@@ -120,7 +120,7 @@ By searching though movie plot summaries, we can discover when certain technolog
 
 {% include_relative figs/missing_plot_summaries.html %}
 
-Despite this potential deficiency, we employed Autophrase [[3]] to extract high quality phrases (general entity names) from the plot summaries, and sorted them by TF-IDF score. We then find the earliest movies that contain one of these phrases in its summary and inspect them to understand the cultural context surrounding the term.
+Despite this potential deficiency, we employed Autophrase [[8]] to extract high quality phrases (general entity names) from the plot summaries, and sorted them by TF-IDF score. We then find the earliest movies that contain one of these phrases in its summary and inspect them to understand the cultural context surrounding the term.
 
 Importantly, aside from disallowing proper nouns and non-English words in the search, we do not explicitly constrain the search to technology. Nevertheless notable pieces of technology make the list of high quality words, highlighting their cultural relevance.
 
@@ -134,7 +134,7 @@ Importantly, aside from disallowing proper nouns and non-English words in the se
 
 ### Technology in real life and the movies
 
-How does the development of technologies in real life compare to the percentage of movies that feature that technology? We simultaneously display the adoption of a given technology from the Historical Cross-Country Technology Adoption (HCCTA) Dataset [[1]], and the percentage of movies that year that included at least a synonym of the technological term.
+How does the development of technologies in real life compare to the percentage of movies that feature that technology? We simultaneously display the adoption of a given technology from the Historical Cross-Country Technology Adoption (HCCTA) Dataset [[9]], and the percentage of movies that year that included at least a synonym of the technological term.
 
 <figure>
 {% include_relative figs/tech_development.html %}
@@ -147,7 +147,7 @@ Germany, Greece, Iceland, Ireland, Italy, Japan, Luxembourg, Netherlands,
 Norway, Portugal, Spain, Sweden, Switzerland, United Kingdom, United States of America
 </figcaption>
 </figure>
-We observe that for many technologies, the proportion of movies that feature them has been significantly and steadily increasing throughout the years. Take the computer, whose earliest appearance in the dataset is with *Gog (1954)*, a science fiction film about a computer gone rogue. [[13]] By the year 2000, up to 2% of movies feature a computer in some way.
+We observe that for many technologies, the proportion of movies that feature them has been significantly and steadily increasing throughout the years. Take the computer, whose earliest appearance in the dataset is with *Gog (1954)*, a science fiction film about a computer gone rogue. [[10]] By the year 2000, up to 2% of movies feature a computer in some way.
 <style>
 
   figure {
@@ -172,9 +172,9 @@ We observe that for many technologies, the proportion of movies that feature the
    </figcaption>
 </figure>
 
-We also note how most technologies feature in movies before they become widely commercially available. This speaks to the how technologies are an object of fascination and speculation. At the same time, technologies in disuse such as the telegraph gain do not feature widely in films aside from when they are historically and thematically relevant like in the coming of age movie *The Tree of Life (2011)* in which a woman in the 1960s receives a telegram announcing her son's death. [[14]]
+We also note how most technologies feature in movies before they become widely commercially available. This speaks to the how technologies are an object of fascination and speculation. At the same time, technologies in disuse such as the telegraph gain do not feature widely in films aside from when they are historically and thematically relevant like in the coming of age movie *The Tree of Life (2011)* in which a woman in the 1960s receives a telegram announcing her son's death. [[11]]
 
-But how well do movies reflect the reality of technology breakthrough and evolution? In other words, how does the emergence of these technologies _correlate_ with their presence in the movie industry? To answer this questiom, we computed a generalized measure of correlation, the maximum information coefficient (MIC), separately for different countries' movie and technological industries. [[10]]
+But how well do movies reflect the reality of technology breakthrough and evolution? In other words, how does the emergence of these technologies _correlate_ with their presence in the movie industry? To answer this questiom, we computed a generalized measure of correlation, the maximum information coefficient (MIC), separately for different countries' movie and technological industries. [[12]]
 
 
 <div class="map">
@@ -183,7 +183,7 @@ But how well do movies reflect the reality of technology breakthrough and evolut
 
 
 For example, the USA has a high mutual information coefficient for the technologies considered. Put simply, USA's cinema industry (hollywood) is highly reactive when it comes to the introduction of real life technologies.
-Now, what about the feelings towards theses technological advancement and their impact on society? To discover this, we ran a sentiment analysis on both plot summaries and movie reviews taken from Rotten Tomatoes [[15]]. 
+Now, what about the feelings towards theses technological advancement and their impact on society? To discover this, we ran a sentiment analysis on both plot summaries and movie reviews taken from Rotten Tomatoes [[13]]. 
 
 ## Sentiment analysis on movie summaries
 
@@ -213,7 +213,7 @@ And how does this picture change for specific genres? Take for example Thrillers
 
 {% include_relative figs/plots_sentiment_over_years_per_genre.html %}
 
-We notice a general negative tendency for movies released in the 1970s. Why could that be? Perhaps an overly-ambitious use of technologies that have aged like milk, or the premature introduction of new technologies? In reality, in the 1970s many novel technologies appeared on the big screen for the first time, to modest reception, such as 2D computer graphics in *Westworld (1973)* and 3D computer graphics in *Futureworld (1976)*. [[16]]
+We notice a general negative tendency for movies released in the 1970s. Why could that be? Perhaps an overly-ambitious use of technologies that have aged like milk, or the premature introduction of new technologies? In reality, in the 1970s many novel technologies appeared on the big screen for the first time, to modest reception, such as 2D computer graphics in *Westworld (1973)* and 3D computer graphics in *Futureworld (1976)*. [[14]]
 
 Although average trends seem to indicate stable positive sentiment, zooming in to specific movies with heavy use of special effects and/or animation reveals a different story. Critic opinions about technology seem to take a nose-dive after around 10 years. This seems like a common perception to have. Indeed, as we get used to the latest, up-to date developements in CGIs and special effects, we might find poorly made or even ridiculous some effects in older films, thus decreasing the overall sentiment scores.
 
@@ -237,7 +237,7 @@ We can notice that mostly techniques have a rather positive sentiment that sligh
 
 {% include_relative figs/sentiment_techniques_over_the_years.html %}
 
-However, only CGI reached a negative peak around the 1990’s. What has happened at this time to have induced such horror? In fact, it seems to be the “break-out” decade for the use of CGI, where movies such as Terminator 2: Judgment Day popularized such a technique [[17]]. As such, one might imagine that a rise in popularity correlates with an increase of low budget and bad quality computer generated frames for the sake of hopping on the bandwagon. Similarly, we observe a general increase of sentiment score in more recent films using 3D computer graphics.
+However, only CGI reached a negative peak around the 1990’s. What has happened at this time to have induced such horror? In fact, it seems to be the “break-out” decade for the use of CGI, where movies such as Terminator 2: Judgment Day popularized such a technique [[15]]. As such, one might imagine that a rise in popularity correlates with an increase of low budget and bad quality computer generated frames for the sake of hopping on the bandwagon. Similarly, we observe a general increase of sentiment score in more recent films using 3D computer graphics.
 
 
 To better understand the sentiment of different techniques overall, we can plot the distribution of sentiment scores for each technique regardless of the release date of each movie. 
@@ -262,68 +262,68 @@ By unraveling the ties between technology and the exploding movie industry, we h
 
 This work would not have been possible without the datasets and code libraries from the following sources.
 
-- [[dataset][1]] Historical Cross-Country Technology Adoption (HCCTA) Dataset. [[article][7]] Comin, D. and Hohijn B., **Cross-Country Technological Adoption: Making the Theories Face the Facts**. Journal of Monetary Economics, January 2004, pp. 39-83.
+- [[dataset][9]] Historical Cross-Country Technology Adoption (HCCTA) Dataset. [[article][7]] Comin, D. and Hohijn B., **Cross-Country Technological Adoption: Making the Theories Face the Facts**. Journal of Monetary Economics, January 2004, pp. 39-83.
 
-- [[library][2]] luozhouyang/AutoPhraseX. **Automatic Phrase Mining from Massive Text Corpora in Python**.
+- [[library][A]] luozhouyang/AutoPhraseX. **Automatic Phrase Mining from Massive Text Corpora in Python**.
 
-- [[article][3]] Jingbo Shang, Jialu Liu, Meng Jiang, Xiang Ren, Clare R Voss, Jiawei Han, **Automated Phrase Mining from Massive Text Corpora**, accepted by IEEE Transactions on Knowledge and Data Engineering, Feb. 2018.
+- [[article][8]] Jingbo Shang, Jialu Liu, Meng Jiang, Xiang Ren, Clare R Voss, Jiawei Han, **Automated Phrase Mining from Massive Text Corpora**, accepted by IEEE Transactions on Knowledge and Data Engineering, Feb. 2018.
 
-- [[article][4]] Jialu Liu*, Jingbo Shang*, Chi Wang, Xiang Ren and Jiawei Han, **Mining Quality Phrases from Massive Text Corpora**, Proc. of 2015 ACM SIGMOD Int. Conf. on Management of Data (SIGMOD'15), Melbourne, Australia, May 2015. (* equally contributed, slides)
+- [[article][B]] Jialu Liu*, Jingbo Shang*, Chi Wang, Xiang Ren and Jiawei Han, **Mining Quality Phrases from Massive Text Corpora**, Proc. of 2015 ACM SIGMOD Int. Conf. on Management of Data (SIGMOD'15), Melbourne, Australia, May 2015. (* equally contributed, slides)
 
-- [[article][5]] Lee, Daniel, Huilai Miao, and Yuxuan Fan. **Analyzing Movies Using Phrase Mining**. (2021).
+- [[article][C]] Lee, Daniel, Huilai Miao, and Yuxuan Fan. **Analyzing Movies Using Phrase Mining**. (2021).
 
-- [[dataset][6]] Geographic plots made with **Natural Earth**.
+- [[dataset][D]] Geographic plots made with **Natural Earth**.
 
 
-- [[dataset][8]] CMU Movie Summary Corpus. [[article][9]]**Learning Latent Personas of Film Characters**
+- [[dataset][3]] CMU Movie Summary Corpus. [[article][E]]**Learning Latent Personas of Film Characters**
 David Bamman, Brendan O'Connor, and Noah A. Smith
 ACL 2013, Sofia, Bulgaria, August 2013
 
-- [[library][11]] minepy/minepy. **Maximal Information-based Non-parametric Exploration**. [[article][10]] Davide Albanese, Samantha Riccadonna, Claudio Donati, Pietro Franceschi, **A practical tool for maximal information coefficient analysis**, GigaScience, Volume 7, Issue 4, April 2018, giy032.
+- [[library][F]] minepy/minepy. **Maximal Information-based Non-parametric Exploration**. [[article][12]] Davide Albanese, Samantha Riccadonna, Claudio Donati, Pietro Franceschi, **A practical tool for maximal information coefficient analysis**, GigaScience, Volume 7, Issue 4, April 2018, giy032.
 
 
-- [[image][12]] By Athanasius Kircher, Public Domain
+- [[image][G]] By Athanasius Kircher, Public Domain
 
-- [[website][13]] Wikipedia **Gog** (film)
+- [[website][10]] Wikipedia **Gog** (film)
 
-- [[website][14]] Wikipedia **The Tree of Life** (film)
+- [[website][11]] Wikipedia **The Tree of Life** (film)
 
-- [[dataset][15]] Kaggle - Rotten Tomatoes movies and critic reviews dataset.
+- [[dataset][13]] Kaggle - Rotten Tomatoes movies and critic reviews dataset.
 
-- [[website][16]] Wikipedia **Timeline of Computer Animation**
+- [[website][14]] Wikipedia **Timeline of Computer Animation**
 
-- [[website][17]] Wikipedia **History of Computer animation**
+- [[website][15]] Wikipedia **History of Computer animation**
 
-- [[image][18]] The cover art can be obtained from Movieposterdb.com., Fair use.
+- [[image][H]] The cover art can be obtained from Movieposterdb.com., Fair use.
 
-- [[image][19]] Obtained from IMDb.
+- [[image][7]] Obtained from IMDb.
 
-- [[website][20]] Wikipedia **History of film technology**
+- [[website][2]] Wikipedia **History of film technology**
 
-- [[website][21]] Wikipedia **Lost Film**
+- [[website][4]] Wikipedia **Lost Film**
 
-- [[dataset][22]] Wikipedia **List of lost films**
+- [[dataset][5]] Wikipedia **List of lost films**
 
 
-[1]: https://www.nber.org/research/data/historical-cross-country-technology-adoption-hccta-dataset
-[2]: https://github.com/luozhouyang/AutoPhraseX
-[3]: https://arxiv.org/abs/1702.04457
-[4]: https://hanj.cs.illinois.edu/pdf/sigmod15_jliu.pdf
-[5]: https://dsc-capstone.org/projects-2020-2021/reports/project_42.pdf
-[6]: https://www.naturalearthdata.com/
-[7]: https://www.sciencedirect.com/science/article/pii/S0304393203001247
-[8]: https://www.cs.cmu.edu/~ark/personas/
-[9]: https://www.cs.cmu.edu/~dbamman/pubs/pdf/bamman+oconnor+smith.acl13.pdf
-[10]: https://doi.org/10.1093/gigascience/giy032
-[11]: https://github.com/minepy/minepy
-[12]: https://commons.wikimedia.org/w/index.php?curid=52666213
-[13]: https://en.wikipedia.org/wiki/Gog_(film)
-[14]: https://en.wikipedia.org/wiki/The_Tree_of_Life_(film)
-[15]: https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data?select=rotten_tomatoes_critic_reviews.csv
-[16]: https://en.wikipedia.org/wiki/Timeline_of_computer_animation_in_film_and_television
-[17]: https://en.wikipedia.org/wiki/History_of_computer_animation 
-[18]: https://en.wikipedia.org/w/index.php?curid=33807800
-[19]: https://www.imdb.com/title/tt0019896/
-[20]: https://en.wikipedia.org/wiki/History_of_film_technology
-[21]: https://en.wikipedia.org/wiki/Lost_film
-[22]: https://en.wikipedia.org/wiki/List_of_lost_films
+[9]: https://www.nber.org/research/data/historical-cross-country-technology-adoption-hccta-dataset
+[7]: https://github.com/luozhouyang/AutoPhraseX
+[8]: https://arxiv.org/abs/1702.04457
+[A]: https://hanj.cs.illinois.edu/pdf/sigmod15_jliu.pdf
+[B]: https://dsc-capstone.org/projects-2020-2021/reports/project_42.pdf
+[C]: https://www.naturalearthdata.com/
+[D]: https://www.sciencedirect.com/science/article/pii/S0304393203001247
+[3]: https://www.cs.cmu.edu/~ark/personas/
+[E]: https://www.cs.cmu.edu/~dbamman/pubs/pdf/bamman+oconnor+smith.acl13.pdf
+[12]: https://doi.org/10.1093/gigascience/giy032
+[F]: https://github.com/minepy/minepy
+[11]: https://commons.wikimedia.org/w/index.php?curid=52666213
+[10]: https://en.wikipedia.org/wiki/Gog_(film)
+[11]: https://en.wikipedia.org/wiki/The_Tree_of_Life_(film)
+[13]: https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data?select=rotten_tomatoes_critic_reviews.csv
+[14]: https://en.wikipedia.org/wiki/Timeline_of_computer_animation_in_film_and_television
+[15]: https://en.wikipedia.org/wiki/History_of_computer_animation 
+[H]: https://en.wikipedia.org/w/index.php?curid=33807800
+[7]: https://www.imdb.com/title/tt0019896/
+[2]: https://en.wikipedia.org/wiki/History_of_film_technology
+[4]: https://en.wikipedia.org/wiki/Lost_film
+[5]: https://en.wikipedia.org/wiki/List_of_lost_films
