@@ -20,7 +20,7 @@ There was the void. Then came the big bang, which created all conditions needed 
 </figure>
 
 ## Moore’s Law in the movie industry 
-A few years later, at the dawn of the 20th century, "Horse in Motion", one of the first chronophotographs, stirred up the crowds [A]. Then, with the advent of celluloid film, sequences became longer, more complex, and more popular until the birth of the movie industry. Technology is like a high-speed train traveling at full speed. One look at the number of films released over the last few decades suffices to notice its exponential expansion. 
+A few years later, at the dawn of the 20th century, "Horse in Motion", one of the first chronophotographs, stirred up the crowds [[20]]. Then, with the advent of celluloid film, sequences became longer, more complex, and more popular until the birth of the movie industry. Technology is like a high-speed train traveling at full speed. One look at the number of films released over the last few decades suffices to notice its exponential expansion. 
 
 {% include_relative figs/nb_movies_per_year.html %}
 
@@ -77,9 +77,9 @@ Nevertheless, some like Charlie Chaplin, who starred in 87 movies throughout his
 
 ## The lost ones
 
-But not all were so lucky. Silent movies became so unpopular that "Most of them did not survive because of wholesale junking by the studios. There was no thought of ever saving these films. They simply needed vault space and the materials were expensive to house." (Film preservationist Robert A. Harris [[C]])
+But not all were so lucky. Silent movies became so unpopular that "Most of them did not survive because of wholesale junking by the studios. There was no thought of ever saving these films. They simply needed vault space and the materials were expensive to house." (Film preservationist Robert A. Harris [[21]])
 In addition to that, movies usually were stored in flammable nitrate films before the 30s, which led to many unfortunate loss events: many movies turned to ash in vault fires, taking with them the collective memory of beloved stories and iconic stars… 
-To track down these forgotten figures, we investigated another an external database from Wikidata [[D]] listing the most prominent lost films in the USA.
+To track down these forgotten figures, we investigated another an external database from Wikidata [[22]] listing the most prominent lost films in the USA.
 
 {% include_relative figs/lost_films_per_year.html %}
 
@@ -256,24 +256,13 @@ Starting from the two extremes sentiment scores of this heatmap,  we see that th
 
 # Final thoughts
 
-By unraveling the ties between technology and the exploding movie industry, we have made several surprising discoveries. New storage formats have preserved our cultural heritage from an age of silent and black-and-white films, where many careers were snuffed out after the transition to sound and color. Real world developments such as wars insert themselves into the minds of film creators, nestled alongside speculations of future technologies. As narrative elements, technologies adapt both positive and negative roles, which speaks to their cultural influence. As tools for creating movies, technology elicits both extreme negative reactions from skeptical critics, and positive reactions from the open-minded. Overall, the interplay of technology and cinema provides rich grounds for cultural investigation, which we found deep pleasure in uncovering. 
-
-
-I hope you enjoyed reading our project, have a Merry Christmas and Happy New Year!
+By unraveling the ties between technology and the exploding movie industry, we have made several surprising discoveries. New storage formats have preserved our cultural heritage from an age of silent and black-and-white films, where many careers were snuffed out after the transition to sound and color. Real world developments such as wars insert themselves into the minds of film creators, nestled alongside speculations of future technologies. As narrative elements, technologies adapt both positive and negative roles, which speaks to their cultural influence. As tools for creating movies, technology elicits both extreme negative reactions from skeptical critics, and positive reactions from the open-minded. Overall, the interplay of technology and cinema provides rich grounds for cultural investigation, which we found deep pleasure in uncovering.
 
 # References
 
 This work would not have been possible without the datasets and code libraries from the following sources.
 
 - [[dataset][1]] Historical Cross-Country Technology Adoption (HCCTA) Dataset. [[article][7]] Comin, D. and Hohijn B., **Cross-Country Technological Adoption: Making the Theories Face the Facts**. Journal of Monetary Economics, January 2004, pp. 39-83.
-
-- [[dataset][8]] CMU Movie Summary Corpus. [[article][9]]**Learning Latent Personas of Film Characters**
-David Bamman, Brendan O'Connor, and Noah A. Smith
-ACL 2013, Sofia, Bulgaria, August 2013
-
-- [[dataset][6]] Geographic plots made with **Natural Earth**.
-
-- [[dataset][D]] Wikipedia **List of lost films**
 
 - [[library][2]] luozhouyang/AutoPhraseX. **Automatic Phrase Mining from Massive Text Corpora in Python**.
 
@@ -283,11 +272,15 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[article][5]] Lee, Daniel, Huilai Miao, and Yuxuan Fan. **Analyzing Movies Using Phrase Mining**. (2021).
 
+- [[dataset][6]] Geographic plots made with **Natural Earth**.
+
+
+- [[dataset][8]] CMU Movie Summary Corpus. [[article][9]]**Learning Latent Personas of Film Characters**
+David Bamman, Brendan O'Connor, and Noah A. Smith
+ACL 2013, Sofia, Bulgaria, August 2013
+
 - [[library][11]] minepy/minepy. **Maximal Information-based Non-parametric Exploration**. [[article][10]] Davide Albanese, Samantha Riccadonna, Claudio Donati, Pietro Franceschi, **A practical tool for maximal information coefficient analysis**, GigaScience, Volume 7, Issue 4, April 2018, giy032.
 
-- [[website][A]] Wikipedia **History of film technology**
-
-- [[website][C]] Wikipedia **Lost Film**
 
 - [[image][12]] By Athanasius Kircher, Public Domain
 
@@ -305,9 +298,12 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[image][19]] Obtained from IMDb.
 
-[A]: https://en.wikipedia.org/wiki/History_of_film_technology
-[C]: https://en.wikipedia.org/wiki/Lost_film
-[D]: https://en.wikipedia.org/wiki/List_of_lost_films
+- [[website][20]] Wikipedia **History of film technology**
+
+- [[website][21]] Wikipedia **Lost Film**
+
+- [[dataset][22]] Wikipedia **List of lost films**
+
 
 [1]: https://www.nber.org/research/data/historical-cross-country-technology-adoption-hccta-dataset
 [2]: https://github.com/luozhouyang/AutoPhraseX
@@ -328,3 +324,6 @@ ACL 2013, Sofia, Bulgaria, August 2013
 [17]: https://en.wikipedia.org/wiki/History_of_computer_animation 
 [18]: https://en.wikipedia.org/w/index.php?curid=33807800
 [19]: https://www.imdb.com/title/tt0019896/
+[20]: https://en.wikipedia.org/wiki/History_of_film_technology
+[21]: https://en.wikipedia.org/wiki/Lost_film
+[22]: https://en.wikipedia.org/wiki/List_of_lost_films
