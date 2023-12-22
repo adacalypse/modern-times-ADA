@@ -9,22 +9,7 @@ cover-img: /assets/img/moderntime_head.jpg
 
 There was the void. Then came the big bang, which created all conditions needed for the emergence of the seventh art - filmmaking. However, it was not until the 17th century that its precursor, the magic lantern, and its coloured projections, was invented. [[12]]
 
-<style>
 
-  figure {
-    display:inline-block;
-    text-align: center;
-    margin: 30px;
-  }
-
-  figcaption {
-    font-style: italic;
-    font-size: 14px;
-    color: #555;
-    margin: 20px;
-  }
-
-</style>
 
 <figure class="center">
   <img src="./assets/img/kircher_stenographic.jpg" alt = "Illustration of Kircher's Stenographic mirror" class = "center" width="300"> 
