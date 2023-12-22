@@ -2,7 +2,7 @@
 layout: page
 title: "About Us"
 subtitle: An ADA Real Story
-cover-img: /assets/img/teletob.jpg
+cover-img: /assets/img/wide_chaplin.jpg
 ---
 
 # About this project
