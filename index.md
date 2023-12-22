@@ -92,10 +92,14 @@ To track down these forgotten figures, we investigated another an external datab
 
 As the dataset is quite small and only considers the release date of the movies – and not their destruction date – we cannot infer much from the graph. But it is interesting to note that while many movies were lost until the 40s, it then became a very rare event thanks to the transition to safer storage films such as cellulose triacetate or polyester films. 
 Who are the biggest losers amongst our dataset? A quick analysis revealed that only two actors played in more than one subsequently lost movie: Koyel Mullick and M.G Ramachandra. Let’s take a minute to remember their face and efforts. 
-
-<p class="center">
-<img src="./assets/img/MGR_portrait.jpg" alt="MGR">
-</p>
+<div class="row">
+  <div class="column">
+    <img src="/assets/img/MGR_portrait.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/assets/img/mullick.jpg" alt="Forest" style="width:100%">
+  </div>
+</div>
 
 ## Remakes
 
@@ -108,7 +112,6 @@ If you have never heard of one of these, then you probably should look them up t
 # II – Movies as reflection of technology development and public opinion
 
 <img src="assets/img/Charlie_shoots.gif" align="right" width="160" height="140" hspace="10"/>  Movies are not only impacted by technological advancements but are also a reflection of the world's innovation and the evolution of the minds of their creators. In the following plot down below, for example, we can clearly see the impact of real-world wars on the number of war films made during the last century. 
-
 {% include_relative figs/genres_evolution_war.html %}
 
 ### High quality phrases
