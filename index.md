@@ -303,6 +303,8 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[image][7]] Obtained from IMDb.
 
+- [[image][1]] Illustration of Kircher's Steganographic mirror in his 1645 book.
+
 - [[website][2]] Wikipedia **History of film technology**
 
 - [[website][4]] Wikipedia **Lost Film**
@@ -332,3 +334,4 @@ ACL 2013, Sofia, Bulgaria, August 2013
 [2]: https://en.wikipedia.org/wiki/History_of_film_technology
 [4]: https://en.wikipedia.org/wiki/Lost_film
 [5]: https://en.wikipedia.org/wiki/List_of_lost_films
+[1]: https://books.google.nl/books?id=wYlDAAAAcAAJ&pg=PA792#v=onepage&q&f=false
