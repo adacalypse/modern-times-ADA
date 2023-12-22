@@ -20,7 +20,7 @@ There was the void. Then came the big bang, which created all conditions needed 
 </figure>
 
 ## Moore’s Law in the movie industry 
-
+<img src="./assets/img/oscar_ada3.png" align="left" width="100" height="100" hspace="10"/> **Oscar Hellmüller**, who parallelized beautifully real life events with the strange looking abstract data
 A few years later, at the dawn of the 20th century, "Horse in Motion", one of the first chronophotographs, stirred up the crowds [A]. Then, with the advent of celluloid film, sequences became longer, more complex, and more popular until the birth of the movie industry. Technology is like a high-speed train traveling at full speed. One look at the number of films released over the last few decades suffices to notice its exponential expansion. 
 
 {% include_relative figs/nb_movies_per_year.html %}
@@ -178,10 +178,7 @@ Thanks to our 6th group member ChatGPT, we were able to produce a list of words 
 {% include_relative figs/most_least_liked_word.html %}
 
 For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum a word like virus would appear in apocalyptic scenarios. 
-<div class="image-container">
-    <img src="./assets/img/Fox_movie_lost_1.jpg" alt="Fox 1" class="image-container">
-    <img src="./assets/img/Fox_movie_lost_2.jpg" alt="Fox 2" class="image-container">
-</div>
+
 <div class="image-container">
   <figure>
     <img src="assets/img/avatar_gif.gif" alt="GIF avatar" class="image-container">
