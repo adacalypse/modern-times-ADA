@@ -92,14 +92,15 @@ To track down these forgotten figures, we investigated another an external datab
 
 As the dataset is quite small and only considers the release date of the movies – and not their destruction date – we cannot infer much from the graph. But it is interesting to note that while many movies were lost until the 40s, it then became a very rare event thanks to the transition to safer storage films such as cellulose triacetate or polyester films. 
 Who are the biggest losers amongst our dataset? A quick analysis revealed that only two actors played in more than one subsequently lost movie: Koyel Mullick and M.G Ramachandra. Let’s take a minute to remember their face and efforts. 
-<img src="/assets/img/MGR_portrait.jpg" align="center" width="200" height="500" hspace="10"/>
-<img src="/assets/img/mullick.jpg" align="center" width="200" height="500" hspace="10"/>
-<p class="center">
-<img src="./assets/img/MGR_portrait.jpg" alt="MGR">
-</p>
-<p class="center">
-<img src="./assets/img/mullick.jpg" alt="MGR">
-</p>
+<div class="row">
+  <div class="column">
+    <img src="/assets/img/MGR_portrait.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/assets/img/mullick.jpg" alt="Forest" style="width:100%">
+  </div>
+</div>
+
 ## Remakes
 
 Technology induced big changes, more safety, and a vaster realm of artistic opportunity! This leads to endless remakes of the most popular stories in the world, which can be retold in an infinity of new manners. Have a wild guess: which of these stories had the biggest impact?
