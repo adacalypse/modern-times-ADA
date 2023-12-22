@@ -40,16 +40,17 @@ Ever since, the development of cinema has been characterized by technological br
    </figcaption> 
 </figure>
 
-Widespread introduction of sound and colour in the 20s revolutionized the industry and correlates with the quick disappearance of silent and black-and-white movies…
+Widespread introduction of sound and colour in the 20s revolutionized the industry and correlates with the quick disappearance of silent and black-and-white movies.
 
 {% include_relative figs/genres_evolution_silent_BW.html %}
 
-### Adapt – or perish
 In the face of this brutal change, actors need to adapt and seize new opportunities. But while some are able to change their acting style and technique, others miss the boat and the introduction of sound in the 30's thus mark an end to their sinking career. 
+
+### Adapt – or perish
 
 To investigate how this event changed the careers landscape of actors, we inspected all actors that have played in at least one silent film and then compared the proportion of silent and non-silent movie in which they starred. Naturally, age and death are critical confounders in this analysis, as these can also explain the end of a career. As we unfortunately do not have access to the actor's date of passing, we take advantage from their date of birth to improve our analysis by selecting only actors who performed their last silent film below the age of 50. How many of them « survived » the arrival of sound? 
 
-In the pie graph below, the threshold parameter represents the ratio between the number of sound films and the number of silent films above which an actor is considered to have survived the transition. A threshold of 1 therefore means that the survivors have acted in at least as many sound films as silent films.
+In the pie graph below, the threshold parameter represents the ratio between the number of sound films and the number of silent films above which an actor is considered to have survived the transition. A threshold of 1 means that actors who have acted in at least as many sound films as silent films are considered to have survived. A threshold of 0.5 means that actors who have acted in twice as many sound films as silent films are considered to have survived.
 
 {% include_relative figs/younger_silent_actors.html %}
 
@@ -66,7 +67,12 @@ From this additional analysis we observe an interesting trend: actors that have 
 
 
 ### Some exceptions… 
-<img src="assets/img/chaplin_industry.gif" align="left" width="160" height="130" hspace="10"/> Nevertheless, some like Charlie Chaplin, who starred in 87 movies throughout his whole career, survive true to themselves amidst the chaos. Even with the growth and popularity of sound in movies, he decides to stay in his original realm: all of his movies are, according to the dataset, silent movie! Lucky us, because otherwise unforgettable classics like City of Light and Modern Times, whose criticism of technology is flagrant, wouldn't exist!
+<figure class="center">
+  <img src="assets/img/chaplin_industry.gif"/>
+  <figcaption> Charlie Chaplin in Modern Times <a href="https://www.imdb.com/title/tt0027977/"> IMDb </a> </figcaption>
+</figure>
+
+Nevertheless, some like Charlie Chaplin, who starred in 87 movies throughout his whole career, stay true to themselves amidst the chaos. Even with the growth and popularity of sound in movies, he decides to stay in his original realm: all of his movies are, according to the dataset, silent movies! Lucky us, because otherwise unforgettable classics like City of Light and Modern Times, whose criticism of technology is flagrant, wouldn't exist!
 
 
 ## The lost ones
@@ -78,7 +84,7 @@ To track down these forgotten figures, we investigated another an external datab
 {% include_relative figs/lost_films_per_year.html %}
 
 As the dataset is quite small and only considers the release date of the movies – and not their destruction date – we cannot infer much from the graph. But it is interesting to note that while many movies were lost until the 40s, it then became a very rare event thanks to the transition to safer storage films such as cellulose triacetate or polyester films. 
-Who are the biggest losers amongst our dataset? A quick analysis revealed that up to fiftenn actors played in more than one subsequently lost movie! Which lost movies did take the most actors with them in their fall?
+Who are the biggest losers amongst our dataset? A quick analysis revealed that up to fifteen actors played in more than one subsequently lost movie! Which lost movies did take the most actors with them in their fall?
 
 {% include_relative figs/lost_star_count.html %}
 
@@ -99,7 +105,13 @@ If you have never heard of one of these, then you probably should look them up t
 
 # II – Movies as reflection of technology development and public opinion
 
-<img src="assets/img/Charlie_shoots.gif" align="right" width="160" height="140" hspace="10"/>  Movies are not only impacted by technological advancements but are also a reflection of the world's innovation and the evolution of the minds of their creators. In the following plot down below, for example, we can clearly see the impact of real-world wars on the number of war films made during the last century. 
+<figure class="center">
+  <img src="assets/img/Charlie_shoots.gif"/>
+  <figcaption> Charlie Chaplin in Modern Times <a href="https://www.imdb.com/title/tt0027977/"> IMDb</a>
+  </figcaption>
+</figure>
+
+Movies are not only impacted by technological advancements but are also a reflection of the world's innovation and the evolution of the minds of their creators. In the following plot down below, for example, we can clearly see the impact of real-world wars on the number of war films made during the last century. 
 {% include_relative figs/genres_evolution_war.html %}
 
 ### High quality phrases
@@ -108,7 +120,7 @@ By searching though movie plot summaries, we can discover when certain technolog
 
 {% include_relative figs/missing_plot_summaries.html %}
 
-Despite this potential defficiency, we employed Autophrase [[3]] to extract high quality phrases (general entity names) from the plot summaries, sorting by TF-IDF score. We print best-performing earliest movies to contain that phrase in its summary to understand where the world was from a cultural standpoint.
+Despite this potential deficiency, we employed Autophrase [[3]] to extract high quality phrases (general entity names) from the plot summaries, and sorted them by TF-IDF score. We then find the earliest movies that contain one of these phrases in its summary and inspect them to understand the cultural context surrounding the term.
 
 Importantly, aside from disallowing proper nouns and non-English words in the search, we do not explicitly constrain the search to technology. Nevertheless notable pieces of technology make the list of high quality words, highlighting their cultural relevance.
 
@@ -154,13 +166,13 @@ We observe that for many technologies, the proportion of movies that feature the
 </style>
 
 <figure class="center">
-  <img src="./assets/img/gog_ada.jpg" alt = "Scene of the film gog" class = "center" width="300"> 
+  <img src="./assets/img/gog_ada.jpg" alt = "Scene of the film gog" class = "center" width="500"> 
    <figcaption>
     Scene with Dr. David Sheppard and his flamethrower against the robot, 1954. <a href="https://www.imdb.com/title/tt0047033/"> IMDB page </a>
    </figcaption>
 </figure>
 
-We also note how most technologies feature in movies before they become widely commercially available. This speaks to the how technologies are an object of fascination and speculation. At the same time, technologies in disuse such as the Telegraph gain do not feature widely in films aside from when they are historically and thematically relevant like in the coming of age movie *The Tree of Life (2011)* in which a woman in the 1960s receives a telegram announcing her son's death. [[14]]
+We also note how most technologies feature in movies before they become widely commercially available. This speaks to the how technologies are an object of fascination and speculation. At the same time, technologies in disuse such as the telegraph gain do not feature widely in films aside from when they are historically and thematically relevant like in the coming of age movie *The Tree of Life (2011)* in which a woman in the 1960s receives a telegram announcing her son's death. [[14]]
 
 But how well do movies reflect the reality of technology breakthrough and evolution? In other words, how does the emergence of these technologies _correlate_ with their presence in the movie industry? To answer this questiom, we computed a generalized measure of correlation, the maximum information coefficient (MIC), separately for different countries' movie and technological industries. [[10]]
 
@@ -171,7 +183,7 @@ But how well do movies reflect the reality of technology breakthrough and evolut
 
 
 For example, the USA has a high mutual information coefficient for the technologies considered. Put simply, USA's cinema industry (hollywood) is highly reactive when it comes to the introduction of real life technologies.
-Now, what about the feelings towards theses technological advancement and their impact on society? o discover this, we ran a sentiment analysis on both plot summaries and movie reviews taken from Rotten Tomatoes [[15]]. 
+Now, what about the feelings towards theses technological advancement and their impact on society? To discover this, we ran a sentiment analysis on both plot summaries and movie reviews taken from Rotten Tomatoes [[15]]. 
 
 ## Sentiment analysis on movie summaries
 
@@ -181,10 +193,10 @@ Thanks to our 6th group member ChatGPT, we were able to produce a list of words 
 
 For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum, a word like virus would appear in apocalyptic scenarios. 
 <figure class="center">
-    <img src="assets/img/avatar_gif.gif" alt="GIF avatar" class="left" width = 300>
+    <img src="assets/img/avatar_gif.gif" alt="GIF avatar" class="left" width = 500>
     <figcaption> "Avatar", 2009. <a href="https://www.imdb.com/title/tt0499549"> IMDB page </a>
      </figcaption>
-    <img src="assets/img/walking_dead.gif" alt="GIF walking dead" class="right" width = 300>
+    <img src="assets/img/walking_dead.gif" alt="GIF walking dead" class="right" width = 500>
     <figcaption> "The Walking Dead", 2010-2022. <a href="https://www.imdb.com/title/tt1520211"> IMDB page </a>
      </figcaption>
 </figure>
@@ -201,7 +213,7 @@ And how does this picture change for specific genres? Taking for example Thrille
 
 {% include_relative figs/plots_sentiment_over_years_per_genre.html %}
 
-We notice a general negative tendency for movies released in the 1970s. Why could that be? Perhaps an overly-ambitious use of technologies that have aged like milk, or the premature introduction of new technologies? In reality, in the 1970s many novel technologies appeared on the big screen for the first time, to modest reception, such as 2D computer graphics in Westworld (1973) and 3D computer graphics in Futureworld (1976). [[16]]
+We notice a general negative tendency for movies released in the 1970s. Why could that be? Perhaps an overly-ambitious use of technologies that have aged like milk, or the premature introduction of new technologies? In reality, in the 1970s many novel technologies appeared on the big screen for the first time, to modest reception, such as 2D computer graphics in *Westworld (1973)* and 3D computer graphics in *Futureworld (1976)*. [[16]]
 
 Although average trends seem to indicate stable positive sentiment, zooming in to specific movies with heavy use of special effects and/or animation reveals a different story. Critic opinions about technology seem to take a nose-dive after around 10 years. This seems like a common perception to have. Indeed, as we get used to the latest, up-to date developements in CGIs and special effects, we might find poorly made or even ridiculous some effects in older films, thus decreasing the overall sentiment scores.
 
@@ -211,7 +223,7 @@ Star Wars Episode I: The Phantom Menace (1999) is particularly striking example 
 
 
 <figure class = "center" >
-  <img src="./assets/img/jarjar.gif" alt="GIF jarjar" class="center" width="300">
+  <img src="./assets/img/jarjar.gif" alt="GIF jarjar" class="center" width="500">
   <figcaption>
   Jar Jar Binks in "Star Wars Episode I: The Phantom Menace", 1999. <a href="https://www.imdb.com/title/tt0120915"> IMDB page </a>
    </figcaption>
@@ -220,10 +232,7 @@ Star Wars Episode I: The Phantom Menace (1999) is particularly striking example 
 It remains to verify whether the difference of scores after a decade for those particular movies is statistically significant. We balance the set of reviews into two sets: reviews written within 10 years of the movie release, and reviews written at least 10 years after the movie release. Then we perform a T-test to determine whether the means are statistically different with 95% confidence. 
 
 {% include_relative figs/paired_ttest_movies.html %}
-The results are clear - with the Phantom Menace and the Prince of Egypt having depreciated in critical opinion.
-
-
-Similarly, we can observe how the sentiment might change for a specific technique over the years.
+The results are clear - with the Phantom Menace and the Prince of Egypt having depreciated in critical opinion. Similarly, we can observe how the sentiment might change for a specific technique over the years.
 We can notice that mostly techniques have a rather positive sentiment that slightly varies across release years. 
 
 {% include_relative figs/sentiment_techniques_over_the_years.html %}
@@ -231,7 +240,7 @@ We can notice that mostly techniques have a rather positive sentiment that sligh
 However, only CGI reached a negative peak around the 1990’s. What has happened at this time to have induced such horror? In fact, it seems to be the “break-out” decade for the use of CGI, where movies such as Terminator 2: Judgment Day popularized such a technique [[17]]. As such, one might imagine that a rise in popularity correlates with an increase of low budget and bad quality computer generated frames for the sake of hopping on the bandwagon. Similarly, we observe a general increase of sentiment score in more recent films using 3D computer graphics.
 
 
-To better understand the sentiment of different techniques, we can plot the distribution of sentiment scores for each technique regardless of the release date of each movie. 
+To better understand the sentiment of different techniques overall, we can plot the distribution of sentiment scores for each technique regardless of the release date of each movie. 
 
 {% include_relative figs/sentiment_techniques_score_distribution_violin.html %}
 
@@ -243,7 +252,7 @@ On the following heatmap, we observe the correlation between sentiment scores of
     <img src="./figs/technique_genre_heatmap.png" alt="heatmap" class="center" width="1000">
 </figure>
 
-Starting from the two extremes sentiment scores of this heatmap,  we see that the lowest score is 0.08 in the horror-cgi category. It makes sense, after all, who hasn’t seen ridiculous, disappointing effects in horror films? As for the highest scoring sentiment category, we find the musical-animation pair, with a staggering 0.5. Everyone likes watching a musical disney to smile again after a long day at work.
+Starting from the two extremes sentiment scores of this heatmap,  we see that the lowest score is 0.08 in the horror-cgi category. It makes sense, after all, who hasn’t seen ridiculous, disappointing effects in horror films? As for the highest scoring sentiment category, we find the musical-animation pair, with a staggering 0.5. The influence of Disney cannot be understated in this category, who pioneered the animated musical genre.
 
 # Final thoughts
 
