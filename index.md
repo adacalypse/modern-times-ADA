@@ -279,13 +279,11 @@ This work would not have been possible without the datasets and code libraries f
 
 - [[dataset][D]] Geographic plots made with **Natural Earth**.
 
-
 - [[dataset][3]] CMU Movie Summary Corpus. [[article][E]]**Learning Latent Personas of Film Characters**
 David Bamman, Brendan O'Connor, and Noah A. Smith
 ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[library][F]] minepy/minepy. **Maximal Information-based Non-parametric Exploration**. [[article][12]] Davide Albanese, Samantha Riccadonna, Claudio Donati, Pietro Franceschi, **A practical tool for maximal information coefficient analysis**, GigaScience, Volume 7, Issue 4, April 2018, giy032.
-
 
 - [[image][G]] By Athanasius Kircher, Public Domain
 
