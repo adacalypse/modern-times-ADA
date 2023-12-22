@@ -96,7 +96,9 @@ Who are the biggest losers amongst our dataset? A quick analysis revealed that o
 <p class="center">
 <img src="./assets/img/MGR_portrait.jpg" alt="MGR">
 </p>
-
+<p class="center">
+<img src="./assets/img/mullick.jpg" alt="MGR">
+</p>
 ## Remakes
 
 Technology induced big changes, more safety, and a vaster realm of artistic opportunity! This leads to endless remakes of the most popular stories in the world, which can be retold in an infinity of new manners. Have a wild guess: which of these stories had the biggest impact?
