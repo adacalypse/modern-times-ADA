@@ -79,7 +79,7 @@ From this additional analysis we observe an interesting trend: actors that have 
 
 
 ### Some exceptions… 
-<img src="assets/img/chaplin_industry.gif" align="left" width="160" height="130" hspace="10"/> Nevertheless, some like Charlie Chaplin survive true to themselves amidst the chaos. Even with the growth and popularity of sound in movies, he decides to stay in his original realm with City of Light, and Modern Times, whose criticism of technology is flagrant, which are still now unforgettable classics. 
+<img src="assets/img/chaplin_industry.gif" align="left" width="160" height="130" hspace="10"/> Nevertheless, some like Charlie Chaplin, who starred in 87 movies throughout his whole career, survive true to themselves amidst the chaos. Even with the growth and popularity of sound in movies, he decides to stay in his original realm: all of his movies are, according to the dataset, silent movie! Lucky us, because otherwise unforgettable classics like City of Light and Modern Times, whose criticism of technology is flagrant, wouldn't exist!
 
 
 ## The lost ones
@@ -151,7 +151,7 @@ We observe that for many technologies, the proportion of movies that feature the
 
 We also note how most technologies feature in movies before they become widely commercially available. This speaks to the how technologies are an object of fascination and speculation. At the same time, technologies in disuse such as the Telegraph gain do not feature widely in films aside from when they are historically and thematically relevant like in the coming of age movie *The Tree of Life (2011)* in which a woman in the 1960s receives a telegram announcing her son's death. [[14]]
 
-But how well do movies reflect the reality of technology breakthrough and evolution? In other words, how does the emergence of these technologies _correlate_ with their presence in the movie industry? We compute a generalized measure of correlation, the maximum information coefficient (MIC), separately for different countries' movie and technological industries. [[10]]
+But how well do movies reflect the reality of technology breakthrough and evolution? In other words, how does the emergence of these technologies _correlate_ with their presence in the movie industry? To answer this questiom, we computed a generalized measure of correlation, the maximum information coefficient (MIC), separately for different countries' movie and technological industries. [[10]]
 
 {% include_relative figs/map_tech.html %}
 
