@@ -33,12 +33,12 @@ Ever since, the development of cinema has been characterized by technological br
 ## The emergence of sound and color
 
 
- <p class="center">
+ <figure class="center">
 <img src="./assets/img/the-wizard-of-oz-black-and-white-to-colour.gif" alt = "Oz color" class = "center"> 
- <figcaption>
+<figcaption>
     When Dorothy enters the color world in "The Wizard of Oz" , 1939. <a href="https://www.imdb.com/title/tt0032138/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_The%2520wizard%2520of%2520Oz"> IMDB page </a>
    </figcaption> 
-</p>
+</figure>
 
 Widespread introduction of sound and colour in the 20s revolutionized the industry and correlates with the quick disappearance of silent and black-and-white movies…
 
@@ -180,10 +180,14 @@ Thanks to our 6th group member ChatGPT, we were able to produce a list of words 
 {% include_relative figs/most_least_liked_word.html %}
 
 For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum, a word like virus would appear in apocalyptic scenarios. 
-<div class="image-container">
-    <img src="assets/img/avatar_gif.gif" alt="GIF avatar" class="image-container">
-    <img src="assets/img/walking_dead.gif" alt="GIF walking dead" class="image-container">
-</div>
+<figure class="center">
+    <img src="assets/img/avatar_gif.gif" alt="GIF avatar" class="left" width = 300>
+    <figcaption> "Avatar", 2009. <a href="https://www.imdb.com/title/tt0499549"> IMDB page </a>
+     </figcaption>
+    <img src="assets/img/walking_dead.gif" alt="GIF walking dead" class="right" width = 300>
+    <figcaption> "The Walking Dead", 2010-2022. <a href="https://www.imdb.com/title/tt1520211"> IMDB page </a>
+     </figcaption>
+</figure>
 
 But how have opinions evolved about technology in movies?
 
@@ -205,9 +209,13 @@ Although average trends seem to indicate stable positive sentiment, zooming in t
 
 Star Wars Episode I: The Phantom Menace (1999) is particularly striking example of this phenomenon, where motion-captured CGI characters such as Jar-Jar Binks paved the way to later characters such as Gollum in The Lord of the Rings (2001), is now regarded as uncanny.
 
-<div class="image-container">
-    <img src="assets/img/jarjar.gif" alt="GIF jarjar" class="center" width="300">
-</div>
+
+<figure class = "center" >
+  <img src="./assets/img/jarjar.gif" alt="GIF jarjar" class="center" width="300">
+  <figcaption>
+  Jar Jar Binks in "Star Wars Episode I: The Phantom Menace", 1999. <a href="https://www.imdb.com/title/tt0120915"> IMDB page </a>
+   </figcaption>
+</figure>
 
 It remains to verify whether the difference of scores after a decade for those particular movies is statistically significant. We balance the set of reviews into two sets: reviews written within 10 years of the movie release, and reviews written at least 10 years after the movie release. Then we perform a T-test to determine whether the means are statistically different with 95% confidence. 
 
@@ -231,9 +239,9 @@ We can see that the distribution of sentiment score is generally trimodal: a par
 
 On the following heatmap, we observe the correlation between sentiment scores of genres and different techniques used in films.
 
-<div class="image-container">
-    <img src="assets/figs/technique_genre_heatmap.png" alt="heatmap" class="center" width="600">
-</div>
+<figure class="center">
+    <img src="./figs/technique_genre_heatmap.png" alt="heatmap" class="center" width="1000">
+</figure>
 
 Starting from the two extremes sentiment scores of this heatmap,  we see that the lowest score is 0.08 in the horror-cgi category. It makes sense, after all, who hasn’t seen ridiculous, disappointing effects in horror films? As for the highest scoring sentiment category, we find the musical-animation pair, with a staggering 0.5. Everyone likes watching a musical disney to smile again after a long day at work.
 
