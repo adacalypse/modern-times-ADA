@@ -99,8 +99,8 @@ So many forgotten figures! But while the original content is gone, proof of thei
 
 <div class="image-container">
     <img src="./assets/img/Fox_movie_lost_1.jpg" alt="Fox 1">
-    <img src="./assets/img/Fox_movie_lost_1.jpg" alt="Fox 2">
-    <img src="./assets/img/Fox_movie_lost_1.jpg" alt="Fox 3">
+    <img src="./assets/img/Fox_movie_lost_2.jpg" alt="Fox 2">
+    <img src="./assets/img/Fox_movie_lost_3.jpg" alt="Fox 3">
 </div>
 
 
@@ -108,7 +108,7 @@ So many forgotten figures! But while the original content is gone, proof of thei
 
 Technology induced big changes, more safety, and a vaster realm of artistic opportunity! This leads to endless remakes of the most popular stories in the world, which can be retold in an infinity of new manners. Have a wild guess: which of these stories had the biggest impact?
 
-*[“fun fact” top-5 of most remade movies, histogram]*
+{% include_relative figs/Top_10_remakes.html %}
 
 If you have never heard of one of these, then you probably should look them up to better comprehend humanity. For this, you can either choose the original book, or one of its dozens of adaptations. With so many options, everyone should get something out of it, so no excuse to not enrich your cultural background! 
 
