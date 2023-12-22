@@ -167,6 +167,7 @@ But how well do movies reflect the reality of technology breakthrough and evolut
     {% include_relative figs/map_tech.html %}
 </div>
 
+
 For example, the USA has a high mutual information coefficient for the technologies considered. Put simply, USA's cinema industry (hollywood) is highly reactive when it comes to the introduction of real life technologies.
 Now, what about the feelings towards theses technological advancement and their impact on society? o discover this, we ran a sentiment analysis on both plot summaries and movie reviews taken from Rotten Tomatoes [[15]]. 
 
@@ -179,7 +180,13 @@ Thanks to our 6th group member ChatGPT, we were able to produce a list of words 
 For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum a word like virus would appear in in apocalyptic scenarios. 
 <div class="image-container">
     <img src="assets/img/avatar_gif.gif" alt="GIF avatar" class="image-container">
+     <figcaption>
+       Avatar
+     </figcaption>
     <img src="assets/img/walking_dead.gif" alt="GIF walking dead" class="image-container">
+       <figcaption>
+         Virus, the walking dead
+       </figcaption>
 </div>
 
 
