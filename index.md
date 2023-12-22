@@ -201,19 +201,19 @@ For example, “avatar” paints of a picture of an idealized virtual world, whe
      </figcaption>
 </figure>
 
-But how have opinions evolved about technology in movies?
-
-## Sentiment analysis on movie reviews
-Below, we observe reviews where technology such as CGI, VFX, etc. are mentioned. The same contextual analysis as before is performed with a rolling average over five years. 
-We observe a rather stable score around 0.25, which means that reviewers are on average slightly positive about technology used to create movies.
+Although some technological terms have negative connotations in movies, the five-year rolling average sentiment over all technological terms is highly stable and slightly positive, around 0.25.
 
 {% include_relative figs/plots_sentiment_over_years.html %}
 
-And how does this picture change for specific genres? Take for example Thrillers, Science Fiction movies, Action / Adventure and Adventure movies. 
+How does this picture change for specific genres? Take for example Thrillers, Science Fiction movies, Action / Adventure and Adventure movies. 
 
 {% include_relative figs/plots_sentiment_over_years_per_genre.html %}
 
-We notice a general negative tendency for movies released in the 1970s. Why could that be? Perhaps an overly-ambitious use of technologies that have aged like milk, or the premature introduction of new technologies? In reality, in the 1970s many novel technologies appeared on the big screen for the first time, to modest reception, such as 2D computer graphics in *Westworld (1973)* and 3D computer graphics in *Futureworld (1976)*. [[14]]
+
+But how have opinions evolved about technology in movies?
+
+## Sentiment analysis on movie reviews
+
 
 Although average trends seem to indicate stable positive sentiment, zooming in to specific movies with heavy use of special effects and/or animation reveals a different story. Critic opinions about technology seem to take a nose-dive after around 10 years. This seems like a common perception to have. Indeed, as we get used to the latest, up-to date developements in CGIs and special effects, we might find poorly made or even ridiculous some effects in older films, thus decreasing the overall sentiment scores.
 
@@ -237,7 +237,7 @@ We can notice that mostly techniques have a rather positive sentiment that sligh
 
 {% include_relative figs/sentiment_techniques_over_the_years.html %}
 
-However, only CGI reached a negative peak around the 1990’s. What has happened at this time to have induced such horror? In fact, it seems to be the “break-out” decade for the use of CGI, where movies such as Terminator 2: Judgment Day popularized such a technique [[15]]. As such, one might imagine that a rise in popularity correlates with an increase of low budget and bad quality computer generated frames for the sake of hopping on the bandwagon. Similarly, we observe a general increase of sentiment score in more recent films using 3D computer graphics.
+We notice a general downwards tendency for special effects and animation in movies released in the 1970s. Why could that be? In reality, in the 1970s many novel technologies appeared on the big screen for the first time, to modest reception, such as 2D computer graphics in *Westworld (1973)* and 3D computer graphics in *Futureworld (1976)*. [[14]] However, only CGI reached a negative peak around the 1990’s. What has happened at this time to have induced such horror? In fact, it seems to be the “break-out” decade for the use of CGI, where movies such as Terminator 2: Judgment Day popularized such a technique [[15]]. As such, one might imagine that a rise in popularity correlates with an increase of low budget and bad quality computer generated frames for the sake of hopping on the bandwagon. Similarly, we observe a general increase of sentiment score in more recent films using 3D computer graphics.
 
 
 To better understand the sentiment of different techniques overall, we can plot the distribution of sentiment scores for each technique regardless of the release date of each movie. 
