@@ -80,13 +80,9 @@ We then consider the following: the survival rate for actors who have acted in l
 
 
 ### Some exceptions… 
-Nevertheless, some like Charlie Chaplin survive true to themselves amidst the chaos. Even with the growth and popularity of sound in movies, he decides to stay in his original realm with City of Light, and Modern Times, whose criticism of technology is flagrant, which are still now unforgettable classics. 
+<img src="assets/img/chaplin_industry.gif" align="left" width="160" height="130" hspace="10"/> Nevertheless, some like Charlie Chaplin survive true to themselves amidst the chaos. Even with the growth and popularity of sound in movies, he decides to stay in his original realm with City of Light, and Modern Times, whose criticism of technology is flagrant, which are still now unforgettable classics. 
 
-<p class="center">
-<img src="./assets/img/chaplin_industry.gif" alt="Chaplin tech" class = "center">
-</p>
 
-<br>
 ## The lost ones
 
 But not all were so lucky. Silent movies became so unpopular that "Most of [them] did not survive because of wholesale junking by the studios. There was no thought of ever saving these films. They simply needed vault space and the materials were expensive to house." (Film preservationist Robert A. Harris [[C]])
@@ -112,10 +108,8 @@ If you have never heard of one of these, then you probably should look them up t
 
 # II – Movies as reflection of technology development and public opinion
 
-Movies are not only impacted by technological advancements but are also a reflection of this evolution and of the minds of their creators. In this plot, for example, we can clearly see the impact of real-world wars on the number of war films made on the last century.
-<p class="center">
-<img src="./assets/img/Charlie_shoots.gif" alt="Chaplin tech" class = "center">
-</p>
+<img src="assets/img/Charlie_shoots.gif" align="right" width="160" height="140" hspace="10"/>  Movies are not only impacted by technological advancements but are also a reflection of the world's innovation and the evolution of the minds of their creators. In this plot, for example, we can clearly see the impact of real-world wars on the number of war films made during the last century. 
+
 {% include_relative figs/genres_evolution_war.html %}
 
 ### High quality phrases
