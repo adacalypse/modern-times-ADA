@@ -162,7 +162,10 @@ We also note how most technologies feature in movies before they become widely c
 
 But how well do movies reflect the reality of technology breakthrough and evolution? In other words, how does the emergence of these technologies _correlate_ with their presence in the movie industry? To answer this questiom, we computed a generalized measure of correlation, the maximum information coefficient (MIC), separately for different countries' movie and technological industries. [[10]]
 
-{% include_relative figs/map_tech.html %}
+
+<div class="map">
+    {% include_relative figs/map_tech.html %}
+</div>
 
 For example, the USA has a high mutual information coefficient for the technologies considered. Put simply, USA's cinema industry (hollywood) is highly reactive when it comes to the introduction of real life technologies.
 Now, what about the feelings towards theses technological advancement and their impact on society? o discover this, we ran a sentiment analysis on both plot summaries and movie reviews taken from Rotten Tomatoes [[15]]. 
