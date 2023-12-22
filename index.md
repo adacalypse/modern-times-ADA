@@ -80,12 +80,8 @@ We then consider the following: the survival rate for actors who have acted in l
 
 
 ### Some exceptions… 
-<img src="assets/img/chaplin_industry.gif" align="left" width="160" height="160" hspace="10"/> Nevertheless, some like Charlie Chaplin survive true to themselves amidst the chaos. Even with the growth and popularity of sound in movies, he decides to stay in his original realm with City of Light, and Modern Times, whose criticism of technology is flagrant, which are still now unforgettable classics. 
-<! ––
-<p class="center">
-<img src="./assets/img/chaplin_industry.gif" alt="Chaplin tech" class = "center">
-</p>
-––>
+<img src="assets/img/chaplin_industry.gif" align="left" width="160" height="150" hspace="10"/> Nevertheless, some like Charlie Chaplin survive true to themselves amidst the chaos. Even with the growth and popularity of sound in movies, he decides to stay in his original realm with City of Light, and Modern Times, whose criticism of technology is flagrant, which are still now unforgettable classics. 
+
 <br>
 ## The lost ones
 
