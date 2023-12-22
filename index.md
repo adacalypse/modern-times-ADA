@@ -113,9 +113,7 @@ If you have never heard of one of these, then you probably should look them up t
 # II – Movies as reflection of technology development and public opinion
 
 <img src="assets/img/Charlie_shoots.gif" width="200" height="200" />  Movies are not only impacted by technological advancements but are also a reflection of this evolution and of the minds of their creators. In this plot, for example, we can clearly see the impact of real-world wars on the number of war films made on the last century. 
-<p class="center">
-<img src="./assets/img/Charlie_shoots.gif" width="100" height="100" alt="Chaplin tech" class = "center">
-</p>
+
 {% include_relative figs/genres_evolution_war.html %}
 
 ### High quality phrases
