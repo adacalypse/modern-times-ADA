@@ -177,17 +177,19 @@ Thanks to our 6th group member ChatGPT, we were able to produce a list of words 
 
 {% include_relative figs/most_least_liked_word.html %}
 
-For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum a word like virus would appear in in apocalyptic scenarios. 
+For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum a word like virus would appear in apocalyptic scenarios. 
 <div class="image-container">
+  <figure>
     <img src="assets/img/avatar_gif.gif" alt="GIF avatar" class="image-container">
-     <figcaption>
-       Avatar
-     </figcaption>
+    <figcaption>Avatar</figcaption>
+  </figure>
+  
+  <figure>
     <img src="assets/img/walking_dead.gif" alt="GIF walking dead" class="image-container">
-       <figcaption>
-         Virus, the walking dead
-       </figcaption>
+    <figcaption>Virus: the walking dead's zombie</figcaption>
+  </figure>
 </div>
+
 
 
 # References
@@ -224,6 +226,8 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[website][14]] Wikipedia **The Tree of Life** (film)
 
+- [[website][16]] Wikipedia **Timeline of Computer Animation**
+
 - [[dataset][15]] Kaggle - Rotten Tomatoes movies and critic reviews dataset.
 
 
@@ -246,3 +250,4 @@ ACL 2013, Sofia, Bulgaria, August 2013
 [13]: https://en.wikipedia.org/wiki/Gog_(film)
 [14]: https://en.wikipedia.org/wiki/The_Tree_of_Life_(film)
 [15]: https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data?select=rotten_tomatoes_critic_reviews.csv
+[16]: https://en.wikipedia.org/wiki/Timeline_of_computer_animation_in_film_and_television
