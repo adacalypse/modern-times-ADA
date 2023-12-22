@@ -303,7 +303,6 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[image][7]] Obtained from IMDb.
 
-
 - [[image][1]] Illustration of Kircher's Steganographic mirror in his 1645 book.
 
 - [[website][2]] Wikipedia **History of film technology**
