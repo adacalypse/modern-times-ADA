@@ -167,6 +167,7 @@ But how well do movies reflect the reality of technology breakthrough and evolut
     {% include_relative figs/map_tech.html %}
 </div>
 
+
 For example, the USA has a high mutual information coefficient for the technologies considered. Put simply, USA's cinema industry (hollywood) is highly reactive when it comes to the introduction of real life technologies.
 Now, what about the feelings towards theses technological advancement and their impact on society? o discover this, we ran a sentiment analysis on both plot summaries and movie reviews taken from Rotten Tomatoes [[15]]. 
 
