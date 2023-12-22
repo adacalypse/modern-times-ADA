@@ -20,7 +20,7 @@ There was the void. Then came the big bang, which created all conditions needed 
 </figure>
 
 ## Moore’s Law in the movie industry 
-
+<img src="./assets/img/oscar_ada3.png" align="left" width="100" height="100" hspace="10"/> **Oscar Hellmüller**, who parallelized beautifully real life events with the strange looking abstract data
 A few years later, at the dawn of the 20th century, "Horse in Motion", one of the first chronophotographs, stirred up the crowds [A]. Then, with the advent of celluloid film, sequences became longer, more complex, and more popular until the birth of the movie industry. Technology is like a high-speed train traveling at full speed. One look at the number of films released over the last few decades suffices to notice its exponential expansion. 
 
 {% include_relative figs/nb_movies_per_year.html %}
@@ -177,20 +177,55 @@ Thanks to our 6th group member ChatGPT, we were able to produce a list of words 
 
 {% include_relative figs/most_least_liked_word.html %}
 
-For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum a word like virus would appear in apocalyptic scenarios. 
+For example, “avatar” paints of a picture of an idealized virtual world, whereas on the on the other end of the spectrum, a word like virus would appear in apocalyptic scenarios. 
 <div class="image-container">
-  <figure>
     <img src="assets/img/avatar_gif.gif" alt="GIF avatar" class="image-container">
-    <figcaption>Avatar</figcaption>
-  </figure>
-  
-  <figure>
     <img src="assets/img/walking_dead.gif" alt="GIF walking dead" class="image-container">
-    <figcaption>Virus: the walking dead's zombie</figcaption>
-  </figure>
 </div>
 
+But how have opinions evolved about technology in movies?
 
+## Sentiment analysis on movie reviews
+Below, we observe reviews where technology such as CGI, VFX, etc. are mentioned. The same contextual analysis as before is performed with a rolling average over five years. 
+We observe a rather stable score around 0.25, which means that reviewers are on average slightly positive about technology used to create movies.
+
+{% include_relative figs/plots_sentiment_over_years.html %}
+
+And how does this picture change for specific genres? Taking for example Thrillers, Science Fiction movies, Action / Adventure and Adventure movies. 
+
+{% include_relative figs/plots_sentiment_over_years_per_genre.html %}
+
+We notice a general negative tendency for movies released in the 1970s. Why could that be? Perhaps an overly-ambitious use of technologies that have aged like milk, or the premature introduction of new technologies? In reality, in the 1970s many novel technologies appeared on the big screen for the first time, to modest reception, such as 2D computer graphics in Westworld (1973) and 3D computer graphics in Futureworld (1976). [[16]]
+
+Although average trends seem to indicate stable positive sentiment, zooming in to specific movies with heavy use of special effects and/or animation reveals a different story. Critic opinions about technology seem to take a nose-dive after around 10 years.
+
+{% include_relative figs/movies_delay.html %}
+
+Star Wars Episode I: The Phantom Menace (1999) is particularly striking example of this phenomenon, where motion-captured CGI characters such as Jar-Jar Binks paved the way to later characters such as Gollum in The Lord of the Rings (2001), is now regarded as uncanny.
+
+<div class="image-container">
+    <img src="assets/img/jarjar.gif" alt="GIF jarjae" class="center">
+</div>
+
+It remains to verify whether the difference of scores after a decade for those particular movies is statistically significant. We balance the set of reviews into two sets: reviews written within 10 years of the movie release, and reviews written at least 10 years after the movie release. Then we perform a T-test to determine whether the means are statistically different with 95% confidence. 
+
+{% include_relative figs/paired_ttest_movies.html %}
+The results are clear - with the Phantom Menace and the Prince of Egypt having depreciated in critical opinion.
+
+
+Similarly, we can observe how the sentiment might change for a specific technique over the years.
+We can notice that mostly techniques have a rather positive sentiment that slightly varies across release years. 
+
+{% include_relative figs/sentiment_techniques_over_the_years.html %}
+
+However, only CGI reached a negative peak around the 1990’s. What has happened at this time to have induced such horror? In fact, it seems to be the “break-out” decade for the use of CGI, where movies such as Terminator 2: Judgment Day popularized such a technique [[17]]. As such, one might imagine that a rise in popularity correlates with an increase of low budget and bad quality computer generated frames for the sake of hopping on the bandwagon. Similarly, we observe a general increase of sentiment score in more recent films using 3D computer graphics.
+
+
+To better understand the sentiment of different techniques, we can plot the distribution of sentiment scores for each technique regardless of the release date of each movie. 
+
+{% include_relative figs/sentiment_techniques_score_distribution_violin.html %}
+
+We can see that the distribution of sentiment score is generally trimodal: a part of the reviewers seem to be very enthusiastic about techniques (score of 1), another very skeptical (score of -1) and a majority of reviewers are modestly positive. This distribution seems to be illustrate real-life divergence of opinions. 
 
 # References
 
@@ -226,9 +261,11 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[website][14]] Wikipedia **The Tree of Life** (film)
 
+- [[dataset][15]] Kaggle - Rotten Tomatoes movies and critic reviews dataset.
+
 - [[website][16]] Wikipedia **Timeline of Computer Animation**
 
-- [[dataset][15]] Kaggle - Rotten Tomatoes movies and critic reviews dataset.
+- [[website][17]] Wikipedia **History of Computer animation**
 
 
 [A]: https://en.wikipedia.org/wiki/History_of_film_technology
@@ -251,3 +288,4 @@ ACL 2013, Sofia, Bulgaria, August 2013
 [14]: https://en.wikipedia.org/wiki/The_Tree_of_Life_(film)
 [15]: https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data?select=rotten_tomatoes_critic_reviews.csv
 [16]: https://en.wikipedia.org/wiki/Timeline_of_computer_animation_in_film_and_television
+[17]: https://en.wikipedia.org/wiki/History_of_computer_animation 
