@@ -20,7 +20,6 @@ There was the void. Then came the big bang, which created all conditions needed 
 </figure>
 
 ## Moore’s Law in the movie industry 
-<img src="./assets/img/oscar_ada3.png" align="left" width="100" height="100" hspace="10"/> **Oscar Hellmüller**, who parallelized beautifully real life events with the strange looking abstract data
 A few years later, at the dawn of the 20th century, "Horse in Motion", one of the first chronophotographs, stirred up the crowds [A]. Then, with the advent of celluloid film, sequences became longer, more complex, and more popular until the birth of the movie industry. Technology is like a high-speed train traveling at full speed. One look at the number of films released over the last few decades suffices to notice its exponential expansion. 
 
 {% include_relative figs/nb_movies_per_year.html %}
@@ -36,6 +35,9 @@ Ever since, the development of cinema has been characterized by technological br
 
  <p class="center">
 <img src="./assets/img/the-wizard-of-oz-black-and-white-to-colour.gif" alt = "Oz color" class = "center"> 
+ <figcaption>
+    When Dorothy enters the color world in "The Wizard of Oz" , 1939. <a href="https://www.imdb.com/title/tt0032138/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_The%2520wizard%2520of%2520Oz"> IMDB page </a>
+   </figcaption> 
 </p>
 
 Widespread introduction of sound and colour in the 20s revolutionized the industry and correlates with the quick disappearance of silent and black-and-white movies…
@@ -154,7 +156,7 @@ We observe that for many technologies, the proportion of movies that feature the
 <figure class="center">
   <img src="./assets/img/gog_ada.jpg" alt = "Scene of the film gog" class = "center" width="300"> 
    <figcaption>
-    Scene with Dr. David Sheppard and his flamethrower against the robot, 1954. <a href="https://www.imdb.com/title/tt0047033/"> gog </a>
+    Scene with Dr. David Sheppard and his flamethrower against the robot, 1954. <a href="https://www.imdb.com/title/tt0047033/"> IMDB page </a>
    </figcaption>
 </figure>
 
@@ -197,14 +199,14 @@ And how does this picture change for specific genres? Taking for example Thrille
 
 We notice a general negative tendency for movies released in the 1970s. Why could that be? Perhaps an overly-ambitious use of technologies that have aged like milk, or the premature introduction of new technologies? In reality, in the 1970s many novel technologies appeared on the big screen for the first time, to modest reception, such as 2D computer graphics in Westworld (1973) and 3D computer graphics in Futureworld (1976). [[16]]
 
-Although average trends seem to indicate stable positive sentiment, zooming in to specific movies with heavy use of special effects and/or animation reveals a different story. Critic opinions about technology seem to take a nose-dive after around 10 years.
+Although average trends seem to indicate stable positive sentiment, zooming in to specific movies with heavy use of special effects and/or animation reveals a different story. Critic opinions about technology seem to take a nose-dive after around 10 years. This seems like a common perception to have. Indeed, as we get used to the latest, up-to date developements in CGIs and special effects, we might find poorly made or even ridiculous some effects in older films, thus decreasing the overall sentiment scores.
 
 {% include_relative figs/movies_delay.html %}
 
 Star Wars Episode I: The Phantom Menace (1999) is particularly striking example of this phenomenon, where motion-captured CGI characters such as Jar-Jar Binks paved the way to later characters such as Gollum in The Lord of the Rings (2001), is now regarded as uncanny.
 
 <div class="image-container">
-    <img src="assets/img/jarjar.gif" alt="GIF jarjae" class="center" width="300">
+    <img src="assets/img/jarjar.gif" alt="GIF jarjar" class="center" width="300">
 </div>
 
 It remains to verify whether the difference of scores after a decade for those particular movies is statistically significant. We balance the set of reviews into two sets: reviews written within 10 years of the movie release, and reviews written at least 10 years after the movie release. Then we perform a T-test to determine whether the means are statistically different with 95% confidence. 
@@ -226,6 +228,21 @@ To better understand the sentiment of different techniques, we can plot the dist
 {% include_relative figs/sentiment_techniques_score_distribution_violin.html %}
 
 We can see that the distribution of sentiment score is generally trimodal: a part of the reviewers seem to be very enthusiastic about techniques (score of 1), another very skeptical (score of -1) and a majority of reviewers are modestly positive. This distribution seems to be illustrate real-life divergence of opinions. 
+
+On the following heatmap, we observe the correlation between sentiment scores of genres and different techniques used in films.
+
+<div class="image-container">
+    <img src="assets/figs/technique_genre_heatmap.png" alt="heatmap" class="center" width="600">
+</div>
+
+Starting from the two extremes sentiment scores of this heatmap,  we see that the lowest score is 0.08 in the horror-cgi category. It makes sense, after all, who hasn’t seen ridiculous, disappointing effects in horror films? As for the highest scoring sentiment category, we find the musical-animation pair, with a staggering 0.5. Everyone likes watching a musical disney to smile again after a long day at work.
+
+# Final thoughts
+
+By unraveling the ties between technology and the exploding movie industry, we have made several surprising discoveries. New storage formats have preserved our cultural heritage from an age of silent and black-and-white films, where many careers were snuffed out after the transition to sound and color. Real world developments such as wars insert themselves into the minds of film creators, nestled alongside speculations of future technologies. As narrative elements, technologies adapt both positive and negative roles, which speaks to their cultural influence. As tools for creating movies, technology elicits both extreme negative reactions from skeptical critics, and positive reactions from the open-minded. Overall, the interplay of technology and cinema provides rich grounds for cultural investigation, which we found deep pleasure in uncovering. 
+
+
+I hope you enjoyed reading our project, have a Merry Christmas and Happy New Year!
 
 # References
 
