@@ -192,9 +192,10 @@ We observe a rather stable score around 0.25, which means that reviewers are on 
 {% include_relative figs/plots_sentiment_over_years.html %}
 
 And how does this picture change for specific genres? Taking for example Thrillers, Science Fiction movies, Action / Adventure and Adventure movies. 
-We notice a general negative tendency for movies released in the 1970s. Why could that be? Perhaps an overly-ambitious use of technologies that have aged like milk, or the premature introduction of new technologies? In reality, in the 1970s many novel technologies appeared on the big screen for the first time, to modest reception, such as 2D computer graphics in Westworld (1973) and 3D computer graphics in Futureworld (1976). [[16]]
 
 {% include_relative figs/plots_sentiment_over_years_per_genre.html %}
+
+We notice a general negative tendency for movies released in the 1970s. Why could that be? Perhaps an overly-ambitious use of technologies that have aged like milk, or the premature introduction of new technologies? In reality, in the 1970s many novel technologies appeared on the big screen for the first time, to modest reception, such as 2D computer graphics in Westworld (1973) and 3D computer graphics in Futureworld (1976). [[16]]
 
 Although average trends seem to indicate stable positive sentiment, zooming in to specific movies with heavy use of special effects and/or animation reveals a different story. Critic opinions about technology seem to take a nose-dive after around 10 years.
 
@@ -202,18 +203,22 @@ Although average trends seem to indicate stable positive sentiment, zooming in t
 
 Star Wars Episode I: The Phantom Menace (1999) is particularly striking example of this phenomenon, where motion-captured CGI characters such as Jar-Jar Binks paved the way to later characters such as Gollum in The Lord of the Rings (2001), is now regarded as uncanny.
 
-... Jar-Jar gif ...
+<div class="image-container">
+    <img src="assets/img/jarjar.gif" alt="GIF jarjae" class="center">
+</div>
 
-... some text about t-tests ...
+It remains to verify whether the difference of scores after a decade for those particular movies is statistically significant. We balance the set of reviews into two sets: reviews written within 10 years of the movie release, and reviews written at least 10 years after the movie release. Then we perform a T-test to determine whether the means are statistically different with 95% confidence. 
 
 {% include_relative figs/paired_ttest_movies.html %}
+The results are clear - with the Phantom Menace and the Prince of Egypt having depreciated in critical opinion.
+
 
 Similarly, we can observe how the sentiment might change for a specific technique over the years.
 We can notice that mostly techniques have a rather positive sentiment that slightly varies across release years. 
 
 {% include_relative figs/sentiment_techniques_over_the_years.html %}
 
-However, only CGI reached a negative peak around the 1990’s. What has happened at this time to have induced such horror? In fact, it seems to be the “break-out” decade for the use of CGI, where movies such as Terminator 2: Judgment Day popularized such a technique [[17]]. As such, one might imagine that a rise in popularity correlates with an increase of low budget and bad quality computer generated frames for the sake of hopping on the bandwagon.
+However, only CGI reached a negative peak around the 1990’s. What has happened at this time to have induced such horror? In fact, it seems to be the “break-out” decade for the use of CGI, where movies such as Terminator 2: Judgment Day popularized such a technique [[17]]. As such, one might imagine that a rise in popularity correlates with an increase of low budget and bad quality computer generated frames for the sake of hopping on the bandwagon. Similarly, we observe a general increase of sentiment score in more recent films using 3D computer graphics.
 
 
 To better understand the sentiment of different techniques, we can plot the distribution of sentiment scores for each technique regardless of the release date of each movie. 
@@ -256,9 +261,11 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[website][14]] Wikipedia **The Tree of Life** (film)
 
+- [[dataset][15]] Kaggle - Rotten Tomatoes movies and critic reviews dataset.
+
 - [[website][16]] Wikipedia **Timeline of Computer Animation**
 
-- [[dataset][15]] Kaggle - Rotten Tomatoes movies and critic reviews dataset.
+- [[website][17]] Wikipedia **History of Computer animation**
 
 
 [A]: https://en.wikipedia.org/wiki/History_of_film_technology
@@ -281,3 +288,4 @@ ACL 2013, Sofia, Bulgaria, August 2013
 [14]: https://en.wikipedia.org/wiki/The_Tree_of_Life_(film)
 [15]: https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data?select=rotten_tomatoes_critic_reviews.csv
 [16]: https://en.wikipedia.org/wiki/Timeline_of_computer_animation_in_film_and_television
+[17]: https://en.wikipedia.org/wiki/History_of_computer_animation 
