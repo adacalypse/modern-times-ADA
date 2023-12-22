@@ -267,7 +267,7 @@ By unraveling the ties between technology and the exploding movie industry, we h
 
 This work would not have been possible without the datasets and code libraries from the following sources.
 
-- [[dataset][9]] Historical Cross-Country Technology Adoption (HCCTA) Dataset. [[article][7]] Comin, D. and Hohijn B., **Cross-Country Technological Adoption: Making the Theories Face the Facts**. Journal of Monetary Economics, January 2004, pp. 39-83.
+- [[dataset][9]] Historical Cross-Country Technology Adoption (HCCTA) Dataset. [[article][X]] Comin, D. and Hohijn B., **Cross-Country Technological Adoption: Making the Theories Face the Facts**. Journal of Monetary Economics, January 2004, pp. 39-83.
 
 - [[library][A]] luozhouyang/AutoPhraseX. **Automatic Phrase Mining from Massive Text Corpora in Python**.
 
@@ -299,9 +299,10 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[website][15]] Wikipedia **History of Computer animation**
 
-- [[image][H]] The cover art can be obtained from Movieposterdb.com., Fair use.
+- [[image][6]] The cover art can be obtained from Movieposterdb.com., Fair use.
 
 - [[image][7]] Obtained from IMDb.
+
 
 - [[image][1]] Illustration of Kircher's Steganographic mirror in his 1645 book.
 
@@ -318,18 +319,18 @@ ACL 2013, Sofia, Bulgaria, August 2013
 [A]: https://hanj.cs.illinois.edu/pdf/sigmod15_jliu.pdf
 [B]: https://dsc-capstone.org/projects-2020-2021/reports/project_42.pdf
 [C]: https://www.naturalearthdata.com/
-[D]: https://www.sciencedirect.com/science/article/pii/S0304393203001247
+[X]: https://www.sciencedirect.com/science/article/pii/S0304393203001247
 [3]: https://www.cs.cmu.edu/~ark/personas/
 [E]: https://www.cs.cmu.edu/~dbamman/pubs/pdf/bamman+oconnor+smith.acl13.pdf
 [12]: https://doi.org/10.1093/gigascience/giy032
 [F]: https://github.com/minepy/minepy
-[11]: https://commons.wikimedia.org/w/index.php?curid=52666213
+[G]: https://commons.wikimedia.org/w/index.php?curid=52666213
 [10]: https://en.wikipedia.org/wiki/Gog_(film)
 [11]: https://en.wikipedia.org/wiki/The_Tree_of_Life_(film)
 [13]: https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data?select=rotten_tomatoes_critic_reviews.csv
 [14]: https://en.wikipedia.org/wiki/Timeline_of_computer_animation_in_film_and_television
 [15]: https://en.wikipedia.org/wiki/History_of_computer_animation 
-[H]: https://en.wikipedia.org/w/index.php?curid=33807800
+[6]: https://en.wikipedia.org/w/index.php?curid=33807800
 [7]: https://www.imdb.com/title/tt0019896/
 [2]: https://en.wikipedia.org/wiki/History_of_film_technology
 [4]: https://en.wikipedia.org/wiki/Lost_film
