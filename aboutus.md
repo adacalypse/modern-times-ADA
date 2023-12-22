@@ -4,7 +4,7 @@ title: "About Us"
 subtitle: An ADA Real Story
 cover-img: /assets/img/chapchap.jpg
 ---
-
+![alt text](/assets/img/oscar_ada3.png)
 # About this project
 This project was created in the frame of the Applied Data Analysis (ADA) course at EPFL. The goal was to tell a story with a dataset. 
 
