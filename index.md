@@ -209,13 +209,13 @@ How does this picture change for specific genres? Take for example Thrillers, Sc
 
 {% include_relative figs/plots_sentiment_over_years_per_genre.html %}
 
+In all four genres, starting from the 1960s we notice that the balance of positive to negative connotations begins to skew more neutral, perhaps due to the rise of the apocalyptic subgenre with movies such as *Dr. Strangelove (1964)*, *The Last Man on Earth (1964)*, and *Planet of the Apes (1968)*.
 
-But how have opinions evolved about technology in movies?
+But how have opinions evolved about technology used to make movies?
 
 ## Sentiment analysis on movie reviews
 
-
-Although average trends seem to indicate stable positive sentiment, zooming in to specific movies with heavy use of special effects and/or animation reveals a different story. Critic opinions about technology seem to take a nose-dive after around 10 years. This seems like a common perception to have. Indeed, as we get used to the latest, up-to date developements in CGIs and special effects, we might find poorly made or even ridiculous some effects in older films, thus decreasing the overall sentiment scores.
+Zooming in to specific movies with heavy use of special effects and/or animation reveals the following: Critic opinions about technology seem to take a nose-dive after around 10 years. Indeed, as we get used to the latest, up-to date developements in CGIs and special effects, we might find poorly made or even ridiculous some effects in older films, thus decreasing the overall sentiment scores.
 
 {% include_relative figs/movies_delay.html %}
 
