@@ -153,13 +153,11 @@ We observe that for many technologies, the proportion of movies that feature the
 </style>
 
 <figure class="center">
-  <img src="./assets/img/gog_ada.jpg" alt = "" class = "center" width="300"> 
+  <img src="./assets/img/gog_ada.jpg" alt = "Scene of the film gog" class = "center" width="300"> 
    <figcaption>
-    Illustration of Kircher's Steganographic mirror
-    in his 1645 book <a href="https://www.imdb.com/title/tt0047033/">Ars Magna Lucis et Umbrae</a>.
+    Scene with Dr. David Sheppard and his flamethrower against the robot, 1954. <a href="https://www.imdb.com/title/tt0047033/"> gog </a>
    </figcaption>
 </figure>
-*[Include picture of Gog (1954)]*
 
 We also note how most technologies feature in movies before they become widely commercially available. This speaks to the how technologies are an object of fascination and speculation. At the same time, technologies in disuse such as the Telegraph gain do not feature widely in films aside from when they are historically and thematically relevant like in the coming of age movie *The Tree of Life (2011)* in which a woman in the 1960s receives a telegram announcing her son's death. [[14]]
 
