@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <code style="color : black">About Us</code>
+title: "About Us"
 subtitle: An ADA Real Story
 cover-img: /assets/img/wide_chaplin.jpg
 ---
