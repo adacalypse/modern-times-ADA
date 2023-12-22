@@ -87,17 +87,6 @@ So many forgotten figures! But while the original content is gone, proof of thei
     <img src="./assets/img/Fox_movie_lost_2.jpg" alt="Fox 2" class="image-container">
 </div>
 
-<img src="./assets/img/Fox_movie_lost_1.jpg" style="float:left; margin-right:20px;">
-<img src="./assets/img/Fox_movie_lost_2.jpg" style="float:left;">
-
-
-<div class="centered-container">
-    <div class="image-container">
-        <img src="./assets/img/Fox_movie_lost_1.jpg" alt="Image 1">
-        <img src="./assets/img/Fox_movie_lost_2.jpg" alt="Image 2">
-    </div>
-</div>
-
 ## Remakes
 
 Technology induced big changes, more safety, and a vaster realm of artistic opportunity! This leads to endless remakes of the most popular stories in the world, which can be retold in an infinity of new manners. Have a wild guess: which of these stories had the biggest impact?
