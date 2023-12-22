@@ -22,8 +22,8 @@
 }
 
 .image-container img {
-    width: 48%;
-    margin: 0 10px; /* Add space on both sides of each image */
+    width: 30%;
+    margin: 0 70px; /* Add space on both sides of each image */
     height: auto;
 }
 
