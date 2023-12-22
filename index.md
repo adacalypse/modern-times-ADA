@@ -5,7 +5,7 @@ subtitle: An ADA Data Story
 cover-img: /assets/img/moderntime_head.jpg
 ---
 
-# 0 - In The Beginning
+# In The Beginning
 
 There was the void. Then came the big bang, which created all conditions needed for the emergence of the seventh art - filmmaking. However, it was not until the 17th century that its precursor, the magic lantern, and its coloured projections, was invented. [[12]]
 
@@ -34,7 +34,7 @@ Ever since, the development of cinema has been characterized by technological br
 
 
  <figure class="center">
-<img src="./assets/img/the-wizard-of-oz-black-and-white-to-colour.gif" alt = "Oz color" class = "center"> 
+<img src="./assets/img/the-wizard-of-oz-black-and-white-to-colour.gif" alt = "Oz color" class = "center" width=500> 
 <figcaption>
     When Dorothy enters the color world in "The Wizard of Oz" , 1939. <a href="https://www.imdb.com/title/tt0032138/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_The%2520wizard%2520of%2520Oz"> IMDB page </a>
    </figcaption> 
@@ -88,7 +88,7 @@ Who are the biggest losers amongst our dataset? A quick analysis revealed that u
 
 {% include_relative figs/lost_star_count.html %}
 
-So many forgotten figures! But while the original content is gone, proof of their popularity and impact on society still exist through some posters. Just look at these attracting depictions of "Fox Movietone Follies of 1929", wouldn't you want to watch it?
+So many forgotten figures! But while the original content is gone, proof of their popularity and impact on society still exist through some posters. Just look at these attracting depictions of "Fox Movietone Follies of 1929", wouldn't you want to watch it? [[18]][[19]]
 
 <div class="image-container">
     <img src="./assets/img/Fox_movie_lost_1.jpg" alt="Fox 1" class="image-container">
@@ -209,7 +209,7 @@ We observe a rather stable score around 0.25, which means that reviewers are on 
 
 {% include_relative figs/plots_sentiment_over_years.html %}
 
-And how does this picture change for specific genres? Taking for example Thrillers, Science Fiction movies, Action / Adventure and Adventure movies. 
+And how does this picture change for specific genres? Take for example Thrillers, Science Fiction movies, Action / Adventure and Adventure movies. 
 
 {% include_relative figs/plots_sentiment_over_years_per_genre.html %}
 
@@ -219,7 +219,7 @@ Although average trends seem to indicate stable positive sentiment, zooming in t
 
 {% include_relative figs/movies_delay.html %}
 
-Star Wars Episode I: The Phantom Menace (1999) is particularly striking example of this phenomenon, where motion-captured CGI characters such as Jar-Jar Binks paved the way to later characters such as Gollum in The Lord of the Rings (2001), is now regarded as uncanny.
+Star Wars Episode I: The Phantom Menace (1999) is a particularly striking example of this phenomenon, where motion-captured CGI characters such as Jar-Jar Binks paved the way to later characters such as Gollum in The Lord of the Rings (2001). Nowadays Binks is regarded as slightly uncanny.
 
 
 <figure class = "center" >
@@ -301,6 +301,9 @@ ACL 2013, Sofia, Bulgaria, August 2013
 
 - [[website][17]] Wikipedia **History of Computer animation**
 
+- [[image][18]] The cover art can be obtained from Movieposterdb.com., Fair use.
+
+- [[image][19]] Obtained from IMDb.
 
 [A]: https://en.wikipedia.org/wiki/History_of_film_technology
 [C]: https://en.wikipedia.org/wiki/Lost_film
@@ -323,3 +326,5 @@ ACL 2013, Sofia, Bulgaria, August 2013
 [15]: https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset/data?select=rotten_tomatoes_critic_reviews.csv
 [16]: https://en.wikipedia.org/wiki/Timeline_of_computer_animation_in_film_and_television
 [17]: https://en.wikipedia.org/wiki/History_of_computer_animation 
+[18]: https://en.wikipedia.org/w/index.php?curid=33807800
+[19]: https://www.imdb.com/title/tt0019896/
